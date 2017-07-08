@@ -1,8 +1,8 @@
-![](https://www.dropbox.com/s/zg39lys85bydx0b/prepro-live-2.jpg?raw=1)
+![](/Reference%20Photos/Pre%20Pro%20Logo.jpg)
 
 |ตารางกิจกรรม / แนะนำน้องปี 1 สู่ Python|โจทย์ Online '60|โจทย์ Onsite '60|
 |:-----------------------:|:---------------:|:---------------:|
-|[Activity Schedule IT15.md](https://github.com/sagelga/PreProgramming-60/blob/master/Activity%20Schedule%20IT15.md)|[/Online](https://github.com/sagelga/PreProgramming-60/tree/master/Online/Question) |[/Onsite](https://github.com/sagelga/PreProgramming-60/tree/master/On%20Site)|
+|[Activity Schedule IT15.md](Activity%20Schedule%20IT15.md)|[/Online](/Online/Question) |[/Onsite](/On%20Site)|
 
 # Introduction to Pre Programming 2560
 สวัสดีครับ พี่ชื่อคุมะมง :bear::black_circle::jp: (หรืออยากเรียกว่าพี่มง ก็ตามสบายจ้า)
@@ -22,7 +22,7 @@
 ดังนั้น พี่ขอปล่อยให้น้องเข้ามาดู Repository นี้จนกว่าจะหมดการเรียน PSIT นะครับ แต่พี่มงก็จะไม่ลบไฟล์ไปไหนหรอกนะ รอรุ่นน้องสืบทอดทายาทการสอน Python ไปหารุ่นถัดไป
 
 ---
-# ![](https://www.dropbox.com/s/87t52kss15mxzfw/ic_question_answer_black_48dp_2x.png?raw=1) Issues
+# ![](/Reference%20Photos/Google-Chat.png) Issues
 
 พี่มงจะมาตอบคำถามที่น้องๆสงสัยในนั้น และเพื่อนๆน้องที่สงสัยคล้ายๆกัน ก็สามารถมาหาคำตอบได้จากที่นี้นะครับ
 
@@ -34,7 +34,7 @@
 **ติด Tag, Milestone และลองหา Issues ที่มีอยู่แล้วด้วยนะครับ กันการถามซ้ำ**
 ![](https://www.dropbox.com/s/1jeskqncp45jf7g/Screenshot%202017-06-01%2015.33.59.png?raw=1)
 ---
-# ![](https://www.dropbox.com/s/ltedppupqoxaaxj/ic_class_black_48dp_2x.png?raw=1) Lecture
+# ![](/Reference%20Photos/Google-Class.png) Lecture
 
 สำหรับน้องๆที่อยากดู Code หรือ Lecture ของพี่คุมะมงเอง
 ก็สามารถเข้าไปได้ที่ https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List
@@ -47,12 +47,12 @@
 เรียนคนเดียว มันไม่สนุกหรอกครับ ถ้ามีเพื่อนๆช่วยกันถาม ช่วยกันตอบ จะได้จบพร้อมๆกันทั้งรุ่นนะครับ พี่หวังว่าจะเกิดขื้นกับรุ่นน้องๆนะครับ
 
 ---
-# ![](https://www.dropbox.com/s/2iva51yu7qtx0dl/Google-Code.png?raw=1) Code
+# ![](/Reference%20Photos/Google-Code.png) Code
 
-**ตอนนี้พี่มงขอปิดไว้ก่อนนะครับ เพราะว่าน้องๆบางคนยังทำกันไม่เสร็จ** แต่ก็ยังสามารถถามปัญหา หรือ Algorithm เพื่อนๆหรือพี่ได้ใน Issues ได้เหมือนเดิมนะครับ
+**ขอเปิดคำตอบหลังการเรียน Pre Programming นะครับ** แต่ก็ยังสามารถถามปัญหา หรือ Algorithm เพื่อนๆหรือพี่ได้ใน Issues ได้เหมือนเดิมนะครับ
 
 ---
-# ![](https://www.dropbox.com/s/34ew7n8tecgtymz/ic_bookmark_border_black_48dp_2x.png?raw=1) Resources
+# ![](/Reference%20Photos/Google-Bookmark.png) Resources
 
 รู้ไว้ ก็จะดีต่อชีวิตน้องนะครับ
 
@@ -61,6 +61,6 @@
 
 ---
 # Have fun coding!!!
-![](https://www.dropbox.com/s/pm9t4ceftlvc4s0/Hot%20Head%20Kumamon.jpg?raw=1)
+![](/Reference%20Photos/Hot%20Head%20Kumamon.jpg?raw=1)
 
 -- Crafted with love from P' Kumamon IT14
