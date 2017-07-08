@@ -4,7 +4,7 @@ Copyright by P' Kumamon IT14.
 For education purpose only
 
 ## Follow me on GitHub
-![https://github.com/sagelga](https://www.dropbox.com/s/x5xk4trg3u82bcn/GitHub-Profile-Mobile.PNG?raw=1)
+![https://github.com/sagelga](/Reference%20Photos/GitHub-Profile-Mobile.png)
 
 ----------
 # Types of Values
@@ -34,21 +34,21 @@ type(var) # Returns <class 'bool'>
 # Operators
 
 ### Basic Operator
-| **Symbol**  | + | -    | *    | /   | //         | % | **   |
+| **Symbol**  | +     | -        | *        | /       | //             | %     | **       |
 | ----------- | ----- | -------- | -------- | ------- | -------------- | ----- | -------- |
 | **Name**    | Add   | Subtract | Multiply | Divide  | Floor Division | Mod   | Exponent |
 | **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3   | 2**3     |
 | **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2     | 8        |
 
 ## Logic Operator
-| **Type**    | **AND** | **OR** |
+| **Type**    | **and** | **or** |
 | ----------- | ------- | ------ |
 | False False | False   | False  |
 | False True  | False   | True   |
 | True False  | False   | True   |
 | True True   | True    | True   |
 
-| **Type** | **NOT** |
+| **Type** | **not** |
 | -------- | ----------- |
 | False    | True        |
 | True     | False       |
@@ -59,14 +59,16 @@ type(var) # Returns <class 'bool'>
 | --------- | ------------ | --------- | --------------------- | --------- | --------------------- |
 | Equals to | Not equal to | Less than | Less than or equal to | More than | More than or equal to |
 
-| **Symbol**  | += | -=    | *=    | /=   | //=         | %= | **=   |
-| ----------- | ----- | -------- | -------- | ------- | -------------- | ----- | -------- |
-| **Name**    | Add (Increment)   | Subtract | Multiply | Divide  | Floor Division | Mod   | Exponent |
-| **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3   | 2**3     |
-| **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2     | 8        |
+| **Symbol**  | +=    | -=       | *=       | /=      | //=            | %=  | **=      |
+| ----------- | ----- | -------- | -------- | ------- | -------------- | --- | -------- |
+| **Name**    | Add   | Subtract | Multiply | Divide  | Floor Division | Mod | Exponent |
+| **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3 | 2**3     |
+| **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2   | 8        |
 
 In Python, there are no increment like ++ or -- like
 ```C
+// Written in C language
+
 int num = 12;
 num++
 
