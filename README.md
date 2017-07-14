@@ -27,18 +27,18 @@
 พี่มงจะมาตอบคำถามที่น้องๆสงสัยในนั้น และเพื่อนๆน้องที่สงสัยคล้ายๆกัน ก็สามารถมาหาคำตอบได้จากที่นี้นะครับ
 
 ก็ลองหาดูนะครับ เผื่อจะช่วยอะไรได้บ้าง โดยการกด Tab ที่เขียนว่า Issue บน Repository จ้า
-![](https://www.dropbox.com/s/1uyu3q33f53efqs/Screenshot%202017-06-01%2009.58.39.png?raw=1)
+![](/Reference%20Photos/Issue%20Step%201.png)
 เมื่อเข้าแล้ว จะขื้น Issues ที่มีทั้งหมด หากน้องอยากจะถามคำถามใหม่ ให้กดที่ Add new issues ครับ
-![](https://www.dropbox.com/s/3lzoyd2itu16nc1/Screenshot%202017-06-01%2015.33.50.png?raw=1) เพื่อจะเรื่มเขียนคำถามของน้องๆ
+![](/Reference%20Photos/Issue%20Step%202.png) เพื่อจะเรื่มเขียนคำถามของน้องๆ
 
 **ติด Tag, Milestone และลองหา Issues ที่มีอยู่แล้วด้วยนะครับ กันการถามซ้ำ**
-![](https://www.dropbox.com/s/1jeskqncp45jf7g/Screenshot%202017-06-01%2015.33.59.png?raw=1)
+![](/Reference%20Photos/Issue%20Step%203.png)
 ---
 # ![](/Reference%20Photos/Google-Class.png) Lecture
 
 สำหรับน้องๆที่อยากดู Code หรือ Lecture ของพี่คุมะมงเอง
 ก็สามารถเข้าไปได้ที่ https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List
-![https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List](https://www.dropbox.com/s/z7wabhxbee8ekuo/Screenshot%202017-06-01%2010.03.08.png?raw=1)
+![https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List](/Reference%20Photos/Lecture%10List.png)
 
 แล้วเลือกไฟล์ที่น้องอยากเข้าไปอ่านนะครับ
 
@@ -56,7 +56,7 @@
 
 รู้ไว้ ก็จะดีต่อชีวิตน้องนะครับ
 
-### Ejudge https://ejudge.it.kmitl.ac.th/course/73
+### Ejudge https://ejudge.it.kmitl.ac.th/course/
 ### Think Python (หนังสือเดียวที่เอาเข้าห้องสอบได้) http://greenteapress.com/thinkpython2/thinkpython2.pdf
 
 ---
