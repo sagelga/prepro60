@@ -60,6 +60,10 @@
 ### Think Python (หนังสือเดียวที่เอาเข้าห้องสอบได้) http://greenteapress.com/thinkpython2/thinkpython2.pdf
 
 ---
+# Code Quality Checker
+|Master Codacy|
+|-|
+|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b03bf6150e4d79ba586669bffde515)](https://www.codacy.com/app/sagelga/PreProgramming-60?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sagelga/PreProgramming-60&amp;utm_campaign=Badge_Grade)|
 # Have fun coding!!!
 ![](/Reference%20Photos/Hot%20Head%20Kumamon.jpg?raw=1)
 
