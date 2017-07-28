@@ -8,6 +8,8 @@ On Site/Exam Resource/Exam Results/
 
 *.txt
 
-/.vs
+Online/Answer
 
-Online/
+On Site/Exam Resource/Exam Results/
+
+!On Site/Exam Results/Exam Test Performance Histogram.png
