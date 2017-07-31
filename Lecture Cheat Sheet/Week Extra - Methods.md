@@ -6,32 +6,38 @@ For education purpose only
 ## Follow me on GitHub
 ![https://github.com/sagelga](/Reference%20Photos/GitHub-Profile-Mobile.png)
 
-----------
+---
 
 # String Manipulations
-.lower()
+`.lower()`
+Converts all text to lower case
 
-.upper()
+`.upper()`
+Converts all text to uppercase
 
-.swapcase()
+`.swapcase()`
+Converts all text to opposite case
 
 # String Alignment
-.center()
+`.center(<width>, <string>)`
+Align the text to be centered
 
 # String Counting
-.find(<string>)
+`.find(<string>)`
 
-.count(<string>)
+`.count(<string>)`
 
 # List creation
-.split(<string>)
+`.split(<string>)`
 
 # List merging
-.join()
+`.join(<string>)`
+
+`.append(<string>)`
 
 # List editing
-.sort()
+`.sort(reverse=False)`
 
-.remove()
+`.remove(<string>)`
 
-.pop()
+`.pop(<array>)`

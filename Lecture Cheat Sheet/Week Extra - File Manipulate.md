@@ -1,0 +1,27 @@
+# Python Extra (File Manipulation)
+
+Copyright by P' Kumamon IT14.
+For education purpose only
+
+## Follow me on GitHub
+![https://github.com/sagelga](/Reference%20Photos/GitHub-Profile-Mobile.png)
+
+---
+
+# Using Vanila Python
+
+```python
+file_variable = open("file_name.txt", "w")
+
+file_variable.write("Hello World")
+
+file_varialbe.close()
+```
+Program need to close the file. Because when you write something, it keeps it in buffer, not the actual file. By closing it, the Python script will save the buffer (write) to the according file
+
+### Another way to write file
+```python
+with open("file_name.txt", "w") as file_variable:
+    file_variale.write("Hello World")
+```
+By using `with` and `as` keyword, this script will automaticaly close the program

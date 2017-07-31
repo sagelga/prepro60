@@ -6,7 +6,8 @@ For education purpose only
 ## Follow me on GitHub
 ![https://github.com/sagelga](/Reference%20Photos/GitHub-Profile-Mobile.png)
 
-----------
+---
+
 # Introduction to Math Library
 
 In Python, we cannot calculate the complicate numbers by code, we use the function to make it easier to calculate everything. This will be the list of function that you should know before test!
