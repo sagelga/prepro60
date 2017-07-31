@@ -1,4 +1,4 @@
-# Python Extra by P’ Kumamon (Pylint + PEP8)
+# Python Extra by P’ Kumamon (Built In Methods)
 
 Copyright by P' Kumamon IT14.
 For education purpose only
@@ -24,14 +24,16 @@ Align the text to be centered
 
 # String Counting
 `.find(<string>)`
+Returning the first recurring string in array number.
 
 `.count(<string>)`
+Returning total string recurrent.
 
 # List creation
-`.split(<string>)`
+`.split(<separator>)`
 
 # List merging
-`.join(<string>)`
+`.join(<separator>)`
 
 `.append(<string>)`
 

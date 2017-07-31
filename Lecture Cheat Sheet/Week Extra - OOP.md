@@ -1,4 +1,4 @@
-# Python Extra (File Manipulation)
+# Python Extra (Class)
 
 Copyright by P' Kumamon IT14.
 For education purpose only
