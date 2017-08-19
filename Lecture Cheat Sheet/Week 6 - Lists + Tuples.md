@@ -13,7 +13,10 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
+
 # Introduction to Arrays
 Array is a set of related data. In Python we have two difference types of array called List and Tuples.
 

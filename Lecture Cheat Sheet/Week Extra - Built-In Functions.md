@@ -13,7 +13,10 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
+
 # Introduction to Math Library
 
 In Python, we have a function that calculate the product built-in to python.

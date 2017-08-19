@@ -13,6 +13,8 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
 
 Referenced by CodeAcademy : [Command Line](https://www.codecademy.com/learn/learn-the-command-line)

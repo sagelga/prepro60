@@ -13,7 +13,10 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
+
 # String คืออะไร
 String เป็นตัวแปรประเภทนึง ที่เก็บ character ไว้หลายๆตัว อาจจะเพียง 2 ตัวก็ได้ หรือจะเป็น ล้านๆตัวก็ได้
 

@@ -13,7 +13,10 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
+
 # Introduction to condition flow
 
 Condition flow makes the program think out of decision. Some decision is harder to make or some decision is complicate, Python have covered you.

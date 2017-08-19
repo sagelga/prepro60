@@ -13,6 +13,8 @@
 Copyright by P' Kumamon IT14.
 For education purpose only
 
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)()
+
 ----------
 
 # ทำยังไงไม่ให้ PyLint ด่า

@@ -14,6 +14,7 @@ Copyright by P' Kumamon IT14.
 For education purpose only
 
 ----------
+
 # Introduction to Dictionary
 Dictionary is similar to list. But they will require these two to complete:
 
