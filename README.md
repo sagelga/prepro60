@@ -1,3 +1,5 @@
+![](http://forthebadge.com/images/badges/contains-cat-gifs.svg)![](http://forthebadge.com/images/badges/made-with-python.svg)![](http://forthebadge.com/images/badges/built-with-swag.svg)![](http://forthebadge.com/images/badges/does-not-contain-msg.svg)
+
 ![](/Reference%20Photos/Pre%20Pro%20Logo.jpg)
 
 |ตารางกิจกรรม / แนะนำน้องปี 1 สู่ Python|โจทย์ Online '60|โจทย์ Onsite '60|
@@ -29,26 +31,22 @@
 
 ---
 
-# ![](/Reference%20Photos/Google-Code.png) Code
+# ![](/Reference%20Photos/Google-Bookmark.png) References
 
-**เปิดคำตอบหลัง Pre Programming นะครับ**
- แต่ก็ยังสามารถถามปัญหา หรือ Algorithm เพื่อนๆหรือพี่ได้ใน Issues ได้เหมือนเดิมนะครับ
+Think Python 2 (หนังสือเดียวที่เอาเข้าห้องสอบได้) <br> http://greenteapress.com/thinkpython2/thinkpython2.pdf
 
----
+Python Tutor (Python Cloud Debugger ทำงานทีละบรรทัด)
+http://www.pythontutor.com
 
-# ![](/Reference%20Photos/Google-Bookmark.png) Resources
-
-รู้ไว้ ก็จะดีต่อชีวิตน้องนะครับ
-
-Ejudge <br> https://ejudge.it.kmitl.ac.th/course/
-Think Python (หนังสือเดียวที่เอาเข้าห้องสอบได้) <br> http://greenteapress.com/thinkpython2/thinkpython2.pdf
+Python Organizations (Document หลักของ Python)
+https://docs.python.org/3/
 
 ---
 
 # Code Quality Checker
-|<img src="https://pbs.twimg.com/profile_images/796423844663853056/WsR0OEAZ.jpg" width="100px"><br>Master<br>Codacy|
+|<img src="https://pbs.twimg.com/profile_images/796423844663853056/WsR0OEAZ.jpg" width="100px"><br>Codacy|
 |:-:|
-|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b03bf6150e4d79ba586669bffde515)](https://www.codacy.com/app/sagelga/PreProgramming-60?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sagelga/PreProgramming-60&amp;utm_campaign=Badge_Grade)|
+|Master<br>[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b03bf6150e4d79ba586669bffde515)](https://www.codacy.com/app/sagelga/PreProgramming-60?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sagelga/PreProgramming-60&amp;utm_campaign=Badge_Grade)|
 
 ---
 
@@ -59,10 +57,6 @@ Think Python (หนังสือเดียวที่เอาเข้า
 <a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
 ### @sagelga
 
-Copyright by P' Kumamon IT14. <br>
-For education purpose only
+Copyright by P' Kumamon IT14.<br>For education purpose only
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
-
-
--- Crafted with love from P' Kumamon IT14
