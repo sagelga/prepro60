@@ -1,10 +1,17 @@
 # Python Week 3 by P’ Kumamon (Strings)
 
-Copyright by P' Kumamon IT14.
-For education purpose only
+## Lecture List
+
+|Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%201%20-%20IO.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%202%20-%20Functions.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%203%20-%20Strings.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%204%20-%20Condition.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%205%20-%20Loops.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%206%20-%20Lists%20%2B%20Tuples.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%207%20-%20Dictionary.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%208%20-%20Recursion.md)|
 
 ## Follow me on GitHub
-![https://github.com/sagelga](/Reference%20Photos/GitHub-Profile-Mobile.png)
+<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
+### @sagelga
+
+Copyright by P' Kumamon IT14.
+For education purpose only
 
 ----------
 # String คืออะไร
@@ -106,11 +113,11 @@ Variable Types and how to print like C
 
 
 ### Doing it like C
-
-    var = "My name is Kumamon"
-    print(">> %s <<" %var)
-    # Prints out ">> My name is Kumamon <<"
-
+```python
+var = "My name is Kumamon"
+print(">> %s <<" %var)
+# Prints out ">> My name is Kumamon <<"
+```
 ## String Type Manipulation
 
 | Type      | %10s     | %-10s    | %.10s      | %-.10s     | %10.10s | %-10.-10s |
@@ -121,17 +128,12 @@ Variable Types and how to print like C
 ```python
 text = "ABC"
 
-print("%4s" %text) # Prints out " ABC"
-
-print("%-4s" %text) # Prints out "ABC "
-
-print("%.2s" %text) # Prints out "AB"
-
-print("%-.2s" %text) # Prints out "AB"
-
-print("%5.2s" %text) # Prints out "   AB"
-
-print("%-5.2s" %text) # Prints out "AB   "
+print("%4s" %text)      # Prints out " ABC"
+print("%-4s" %text)     # Prints out "ABC "
+print("%.2s" %text)     # Prints out "AB"
+print("%-.2s" %text)    # Prints out "AB"
+print("%5.2s" %text)    # Prints out "   AB"
+print("%-5.2s" %text)   # Prints out "AB   "
 ```
 
 ## Integer Type Manipulation
@@ -145,20 +147,11 @@ print("%-5.2s" %text) # Prints out "AB   "
 ```python
 number = 12345
 
-print("%10d" %number)
-# Prints out "     12345"
-
-print("%-10d" %number)
-# Prints out "12345     "
-
-print("%.3d" %number)
-# Prints out "12345"
-
-print("%-.3d" %number)
-# Prints out "12345"
-
-print("%0.10d" %number)
-# Prints out 0000012345
+print("%10d" %number)       # Prints out "     12345"
+print("%-10d" %number)      # Prints out "12345     "
+print("%.3d" %number)       # Prints out "12345"
+print("%-.3d" %number)      # Prints out "12345"
+print("%0.10d" %number)     # Prints out 0000012345
 ```
 
 ## Float Type Manipulation
@@ -169,30 +162,22 @@ print("%0.10d" %number)
 | Alignment | Right    | Left     | Right      | Left       | Right   | Left      |
 
 ```python
-print("%10f" %number)
-# Prints out "123.456700"
+number = 123.4567
 
-print("%-10f" %number)
-# Prints out "123.456700"
-
-print("%.2f" %number)
-# Prints out "123.46"
-
-print("%-.2f" %number)
-# Prints out "123.46"
-
-print("%10.3f" %number)
-# Prints out "   123.457"
-
-print("%-10.3f" %number)
-# Prints out "123.457   "
+print("%10f" %number)       # Prints out "123.456700"
+print("%-10f" %number)      # Prints out "123.456700"
+print("%.2f" %number)       # Prints out "123.46"
+print("%-.2f" %number)      # Prints out "123.46"
+print("%10.3f" %number)     # Prints out "   123.457"
+print("%-10.3f" %number)    # Prints out "123.457   "
 ```
 
 ## Scientific Significant Type Manipulation
 
 ```python
-print("%e" %number)
-# Prints out '1.234567e+02'
+number = 123.4567
+
+print("%e" %number) # Prints out '1.234567e+02'
 ```
 ----------
 
@@ -202,23 +187,19 @@ print("%e" %number)
 
 # String to ASCII (Decimal)
 ```python
-print(ord('A')) # Print out 65
+print(ord('A'))         # Print out 65
+print(ord('B'))         # Print out 66
+print(ord('A') + 1)     # Print out 66
 ```
 
 # ASCII (Decimal) to String
 ```python
-print(chr(65)) # Print out 'A'
-```
+print(chr(65))      # Print out 'A'
+print(chr(65+1))    # Print out 'B'
+print(chr(65+2))    # Print out 'C'
 
-# Alters String ASCII
-```python
-print(chr(65+1)) # Print out 'B'
-```
-
-# Referencing number from variable
-```python
-var = 75
-print(chr(var)) # Print out 'K'
+var = 65
+print(chr(var)) # Print out 'A'
 ```
 
 # Alters String ASCII from character
@@ -227,50 +208,44 @@ print(chr(ord('A')+1)) # Print out 'B'
 ```
 
 # String to change case
-```plain
-Convert character/text to lowercase -> .lower()
-Convert character/text to uppercase -> .upper()
-Convert character/text from lower to upper vice versa -> .swapcase()
+Convert character/text to lowercase ->          `.lower()` <br>
+Convert character/text to uppercase ->          `.upper()` <br>
+Swap character/text case from lower/upper ->    `.swapcase()` <br>
 
-Check character/text is lowercase -> .islower()
-Check character/text is uppercase -> .isupper()
-Check character/text is a number -> .isdigit()
-Check character/text is an alphabet -> .isalpha()
-```
+Check character/text is lowercase ->        `.islower()` <br>
+Check character/text is uppercase ->        `.isupper()` <br>
+Check character/text is a number ->         `.isdigit()` <br>
+Check character/text is an alphabet ->      `.isalpha()` <br>
 
 ### Using .lower()
 ```python
-text = "KUMAMON"
-text = "KuMaMoN"
-text = "kumamon"
-print(text.lower()) # All will print out "kumamon"
+return text.lower()
+# If text = "KUMAMON", returns "kumamon"
+# If text = "KuMaMoN", returns "kumamon"
+# If text = "kumamon", returns "kumamon"
 ```
 
 ### Using .upper()
 ```python
-text = "KUMAMON"
-text = "KuMaMoN"
-text = "kumamon"
-print(text.upper()) # All will print out "KUMAMON"
+return text.upper()
+# If text = "KUMAMON", returns "KUMAMON"
+# If text = "KuMaMoN", returns "KUMAMON"
+# If text = "kumamon", returns "KUMAMON"
 ```
 
 ### Using .swapcase()
 ```python
-text = "Kumamon"
-print(text.swapcase()) # Prints out "kUMAMON"
-
-text = "KuMaMoN"
-print(text.swapcase()) # Prints out "kUmAmOn"
+return text.swapcase()
+# If text = "KUMAMON", returns "kumamon"
+# If text = "KuMaMoN", returns "kUmAmOn"
+# If text = "kumamon", returns "KUMAMON"
 ```
 
 ### Using .isupper() & .islower()
 ```python
 How to use:
 <input variable>.islower()
--> Returns True or False
-
 <input variable>.isupper()
--> Returns True or False
 
 text = "K"
 return text.islower() # Returns false
@@ -331,7 +306,7 @@ return var.find("F") # Returns -1
 var = "Kumamon is happy"
 return var.find("Kuma") # Returns 0
 
-# Using more than 1 character + 2 occurence
+# Using more than 1 character + 2 occurrence
 var = "Kumamon is happy, Kumamon is happy"
 return var.find("Kuma") # Returns 0
 ```
@@ -358,7 +333,7 @@ return var.count("F") # Returns 0
 var = "Kumamon is happy"
 return var.count("Kuma") # Returns 1
 
-# Using more than 1 character + 2 occurence
+# Using more than 1 character + 2 occurrence
 var = "Kumamon is happy, Kumamon is happy"
 return var.count("Kuma") # Returns 2
 ```
@@ -408,4 +383,10 @@ oct(<decimal integer>) # Built-in function. Returns the octal number (Base 8)
 
 Example:
 print(oct(12345)) # Prints out 0o30071
+```
+
+# From other base to decimal
+```python
+number = "11000000111001"
+int(number, 2) # Returns 12345 (converts from base 2 (binary) to base 10 (decimal))
 ```
