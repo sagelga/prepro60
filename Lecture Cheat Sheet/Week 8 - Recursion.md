@@ -34,16 +34,17 @@ A: A: A: A: A: A: A: Q : What is recursion?
 Calculating 4 x 3 x 2 x 1 without using built-in function or loops
 ```python
 def factorial(n):
-  if n == 1:
-    return 1
-  else:
-    return n * factorial(n-1)
+    if n == 1:
+        return 1
+    else:
+        return n * factorial(n-1)
+
 factorial(4)
 ```
 
 # The Pitfalls of Recursion
 
-This subchapter of our tutorial on recursion deals with the Fibonacci numbers. What do have sunflowers, the Golden ratio, fur tree cones, The Da Vinci Code and the song "Lateralus" by Tool in common. Right, the Fibonacci numbers.
+This subchapter of our tutorial on recursion deals with the Fibonacci numbers. What do have sunflowers, the Golden ratio, fur tree cones, The Da Vinci Code in common. Right, the Fibonacci numbers.
 
 The Fibonacci numbers are the numbers of the following sequence of integer values:
 
