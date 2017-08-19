@@ -16,25 +16,26 @@
 ดังนั้น พี่ขอปล่อยให้น้องเข้ามาดู Repository ได้เรื่อยๆนะจ๊ะ อิอิ
 
 ---
+
 # ![](/Reference%20Photos/Google-Class.png) Lecture
 
 สำหรับน้องๆที่อยากดู Code หรือ Lecture ของพี่คุมะมงเอง
-ก็สามารถเข้าไปได้ที่ [Lecture list](https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List)
+ก็สามารถเข้าไปได้ที่ [Lecture Cheat Sheet](https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20Cheat%20Sheet)
 ![https://github.com/sagelga/PreProgramming-60/tree/master/Lecture%20List](/Reference%20Photos/Lecture%20List.png)
 
 แล้วเลือกไฟล์ที่น้องอยากเข้าไปอ่านนะครับ
 
 **และถ้าน้องสงสัยจุดไหน สามารถไปตั้งคำถามใน นี้ได้ครับ :** [วิธีการถามผ่าน GitHub Issues](https://github.com/sagelga/PreProgramming-60/tree/master/How%20to%20create%20GitHub%20Issues.md)
 
-เรียนคนเดียว มันไม่สนุกหรอกครับ ถ้ามีเพื่อนๆช่วยกันถาม ช่วยกันตอบ จะได้จบพร้อมๆกันทั้งรุ่นนะครับ พี่หวังว่าจะเกิดขื้นกับรุ่นน้องๆนะครับ
-
 ---
+
 # ![](/Reference%20Photos/Google-Code.png) Code
 
 **เปิดคำตอบหลัง Pre Programming นะครับ**
  แต่ก็ยังสามารถถามปัญหา หรือ Algorithm เพื่อนๆหรือพี่ได้ใน Issues ได้เหมือนเดิมนะครับ
 
 ---
+
 # ![](/Reference%20Photos/Google-Bookmark.png) Resources
 
 รู้ไว้ ก็จะดีต่อชีวิตน้องนะครับ
@@ -43,14 +44,25 @@ Ejudge <br> https://ejudge.it.kmitl.ac.th/course/
 Think Python (หนังสือเดียวที่เอาเข้าห้องสอบได้) <br> http://greenteapress.com/thinkpython2/thinkpython2.pdf
 
 ---
+
 # Code Quality Checker
 |<img src="https://pbs.twimg.com/profile_images/796423844663853056/WsR0OEAZ.jpg" width="100px"><br>Master<br>Codacy|
 |:-:|
 |[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b03bf6150e4d79ba586669bffde515)](https://www.codacy.com/app/sagelga/PreProgramming-60?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sagelga/PreProgramming-60&amp;utm_campaign=Badge_Grade)|
 
+---
+
 # Have fun coding!!!
 ![](/Reference%20Photos/Hot%20Head%20Kumamon.jpg?raw=1)
 
-[![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)]()[![forthebadge](http://forthebadge.com/images/badges/contains-cat-gifs.svg)]()[![forthebadge](http://forthebadge.com/images/badges/made-with-python.svg)]()
+## Follow me on GitHub
+<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
+### @sagelga
+
+Copyright by P' Kumamon IT14. <br>
+For education purpose only
+
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
+
 
 -- Crafted with love from P' Kumamon IT14
