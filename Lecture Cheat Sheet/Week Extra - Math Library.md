@@ -10,8 +10,8 @@
 <a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
 ### @sagelga
 
-Copyright by P' Kumamon IT14.
-For education purpose only
+Copyright by P' Kumamon IT14. <br>
+For education purpose only. 
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
@@ -20,8 +20,46 @@ For education purpose only
 # Introduction to Math Library
 
 In Python, we cannot calculate the complicate numbers by code, we use the function to make it easier to calculate everything. This will be the list of function that you should know before test!
+
 Most of these functions are possible to be in any PSIT test. Some that are not listed are too complicate. But you can see it here : [https://docs.python.org/3.6/library/math.html](https://docs.python.org/3.6/library/math.html)
 
+# Importing Library
+Before using math library, you need to import it from the built-in library. If the library is imported, you can use their methods (function) inside that library
+```python
+import math
+```
+
+or
+
+```python
+import math as my_name_is_kumamon
+
+# by using as command, the library name is changed to my_name_is_kumamon
+```
+
+# Sample import on multiple functions
+```python
+import math # by importing here, all functions can use this library
+
+def main(value, total):
+  import os # by importing here, this function (main) can use this library
+  print(value)
+  print(total)
+  x = math.fabs(calculate(value, total))
+  print(x)
+
+def calculate(value, total):
+  return math.ceil(value / total)
+
+main(12, 45)
+
+# Using methods in library
+Using the methods in library is easy is this. Program will find the absoulte value (value is -2.55).
+```python
+import math
+
+math.fabs(-2.55)
+```
 
 # Basic math functions
 You should know how to use these before test. Everything is unexpected.
@@ -49,6 +87,13 @@ Returns value as x^y
 math.sqrt(x)
 Returns value as x^1/2 (square root)
 ```
+
+### Using logarithms
+```python
+math.log(<number>, <base>)
+Returns the value as log <base> <number>
+```
+
 ### Using ceiling (round up)
 ```python
 math.ceil(x)
@@ -83,3 +128,19 @@ https://s-media-cache-ak0.pinimg.com/736x/9a/16/09/9a16096d6e68ee4f2b268b07c1011
 
 
 ### Using sin, cos, tan, csc, sec, cot, arcsin, arccos, arctan
+```python
+math.sin(<radians>)
+math.cos(<radians>)
+.
+.
+.
+math.arctan(<radians>)
+```
+
+If the number is still a `degree`, you need to change it to `radians` by using
+
+```python
+math.radians(<degree>)
+
+# Return radians value from the given <degree>
+```
