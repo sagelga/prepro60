@@ -1,29 +1,38 @@
-# Python Week 1 by P’ Kumamon (I/O)
+# Input and Output
 
 ## Lecture List
 
-|Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%201%20-%20IO.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%202%20-%20Functions.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%203%20-%20Strings.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%204%20-%20Condition.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%205%20-%20Loops.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%206%20-%20Lists%20%2B%20Tuples.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%207%20-%20Dictionary.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%208%20-%20Recursion.md)|
+|Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|Week 9|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[Click](/Lecture%20Cheat%20Sheet/Week1%20-%20IO.md)|[Click](/Lecture%20Cheat%20Sheet/Week%202%20-%20Functions.md)|[Click](/Lecture%20Cheat%20Sheet/Week%203%20-%20Math%20Library.md%20)|[Click](/Lecture%20Cheat%20Sheet/Week%204%20-%20Strings.md)|[Click](/Lecture%20Cheat%20Sheet/Week%205%20-%20Condition.md%20)|[Click](/Lecture%20Cheat%20Sheet/Week%206%20-%20Loops.md)|[Click](/Lecture%20Cheat%20Sheet/Week%207%20-%20Lists%20+%20Tuples.md)|[Click](/Lecture%20Cheat%20Sheet/Week%208%20-%20Dictionary.md)|[Click](/Lecture%20Cheat%20Sheet/Week%209%20-%20Recursion.md)|
 
 ## Follow me on GitHub
-<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
-### @sagelga
+|<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>  |
+|:-:|  
+|@sagelga|
 
-Copyright by P' Kumamon IT14.
-For education purpose only
+Copyright by P' Kumamon IT14. <br>
+For education purpose only.
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
 ----------
 
-# Types of Values
+# Basic types of values
 | **Integer** | **Float** | **String**   | **Boolean** |
 | ----------- | --------- | ------------ | ----------- |
 | int()       | float()   | str()        | bool()      |
 | -1 0 1      | 1.1 3.555 | "Hello World"| True False  |
 
-### Type of value check
+### Checking value type
+Python has a built-in function to let you know what the current variable holds what type of variable
+
+By using
+```python
+type(<variable or values>)
+```
+
+as example of
 ```python
 var = "Hello"
 type(var) # Returns <class 'str'>
@@ -41,14 +50,37 @@ var = True
 type(var) # Returns <class 'bool'>
 ```
 
+# More type of variable
+There is a few more thing that you need to know. <br>
+By the computer code, every value is stored in a memory slot. Set of memory address is called **array**. <br>
+This means, every variable can be stored in array, even array itself. <br>
+To learn more, please go to lists + tuple lecture.
+
 # Operators
+Operator allows you to calculate arithmetic problems. <br>
+But in the case of computer arithmetic problem, it is far more harder and more complex than you imagine. <br>
+This is a lists of operators that you use to calculate problems.
 
 ### Basic Operator
-| **Symbol**  | +     | -        | *        | /       | //             | %     | **       |
-| ----------- | ----- | -------- | -------- | ------- | -------------- | ----- | -------- |
-| **Name**    | Add   | Subtract | Multiply | Divide  | Floor Division | Mod   | Exponent |
-| **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3   | 2**3     |
-| **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2     | 8        |
+| **Symbol**  | +     | -        | *        | /       | //             | %       | **       |
+| ----------- | ----- | -------- | -------- | ------- | -------------- | ------- | -------- |
+| **Name**    | Add   | Subtract | Multiply | Divide  | Floor Division | Modulus | Exponent |
+| **Example** | 2+3   | 2-3      | 2*3      | 2/3     | 2//3           | 2&3     | 2**3     |
+| **Results** | 5     | -1       | 6        | 0.66666 | 0              | 2       | 8        |
+
+```python
+value_a = 2
+value_b = 3
+
+return value_a + value_b    # Returns 5
+return value_a - value_b    # Returns -1
+return value_a * value_b    # Returns 6
+return value_a / value_b    # Returns 0.666666 (or it can go weird)
+return value_a // value_b   # Returns 0
+return value_a % value_b    # Returns 2
+return value_a ** value_b   # Returns 8
+
+```
 
 ## Logic Operator
 | **Type**    | **and** | **or** |
@@ -58,10 +90,27 @@ type(var) # Returns <class 'bool'>
 | True False  | False   | True   |
 | True True   | True    | True   |
 
+```python
+return False and False  # Return False
+return False and True   # Return False
+return True and False   # Return False
+return True and True    # Return True
+
+return False or False  # Return False
+return False or True   # Return True
+return True or False   # Return True
+return True or True    # Return True
+```
+
 | **Type** | **not** |
 | -------- | ----------- |
 | False    | True        |
 | True     | False       |
+
+```python
+return not False # Return True
+return not True # Return False
+```
 
 ### Combined Operator
 
@@ -87,11 +136,14 @@ num++
 
 so we use the old way
 ```python
+# Written in Python language
+
 num = 12
 num += 1
 
 # num is equal to 13
 ```
+
 ## Order of Operations
 
 Python is using PEMDAS rule. Do not use other mathematical rule to let Python compute
@@ -162,7 +214,7 @@ var_x = str(input()) # Converts Float/Integer/String to String
 text = "Hello"
 num = 1234
 
-print(num+hello) # Returns error (string cannot be add with interger)
+print(num+hello) # Returns error (string cannot be add with integer)
 
 print(str(num)+text) # Returns 1234Hello (because they are in the same value type)
 ```
@@ -215,9 +267,5 @@ kumamon()
 ```
 
 ## Library that you should know
-
-### Basic Module List
-https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20List/Python-Extra-Built-In-Functions.md
-
-### Math Modules List
-https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20List/Python-Extra-Math-Library.md
+- Basic Module List
+- Math Modules List

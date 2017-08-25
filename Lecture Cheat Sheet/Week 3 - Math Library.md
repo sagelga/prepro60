@@ -1,17 +1,18 @@
-# Python Extra (Math Library)
+# Math Library
 
 ## Lecture List
 
-|Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|
-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%201%20-%20IO.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%202%20-%20Functions.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%203%20-%20Strings.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%204%20-%20Condition.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%205%20-%20Loops.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%206%20-%20Lists%20%2B%20Tuples.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%207%20-%20Dictionary.md)|[Click](https://github.com/sagelga/PreProgramming-60/blob/master/Lecture%20Cheat%20Sheet/Week%208%20-%20Recursion.md)|
+|Week 1|Week 2|Week 3|Week 4|Week 5|Week 6|Week 7|Week 8|Week 9|
+|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+|[Click](/Lecture%20Cheat%20Sheet/Week1%20-%20IO.md)|[Click](/Lecture%20Cheat%20Sheet/Week%202%20-%20Functions.md)|[Click](/Lecture%20Cheat%20Sheet/Week%203%20-%20Math%20Library.md%20)|[Click](/Lecture%20Cheat%20Sheet/Week%204%20-%20Strings.md)|[Click](/Lecture%20Cheat%20Sheet/Week%205%20-%20Condition.md%20)|[Click](/Lecture%20Cheat%20Sheet/Week%206%20-%20Loops.md)|[Click](/Lecture%20Cheat%20Sheet/Week%207%20-%20Lists%20+%20Tuples.md)|[Click](/Lecture%20Cheat%20Sheet/Week%208%20-%20Dictionary.md)|[Click](/Lecture%20Cheat%20Sheet/Week%209%20-%20Recursion.md)|
 
 ## Follow me on GitHub
-<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
-### @sagelga
+|<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>  |
+|:-:|  
+|@sagelga|
 
 Copyright by P' Kumamon IT14. <br>
-For education purpose only. 
+For education purpose only.
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
@@ -35,6 +36,7 @@ or
 import math as my_name_is_kumamon
 
 # by using as command, the library name is changed to my_name_is_kumamon
+my_name_is_kumamon.pi() # is equals to math.pi()
 ```
 
 # Sample import on multiple functions
@@ -54,7 +56,7 @@ def calculate(value, total):
 main(12, 45)
 
 # Using methods in library
-Using the methods in library is easy is this. Program will find the absoulte value (value is -2.55).
+Using the methods in library is easy is this. Program will find the absolute value (value is -2.55).
 ```python
 import math
 
@@ -66,56 +68,52 @@ You should know how to use these before test. Everything is unexpected.
 
 ### Using absolute
 or use exponent from built in function : abs()
-```python
-How to use
-math.fabs(x)
-
-Example:
-math.fabs(-12.5) # Returns 12.5
-```
 Returns absolute x value
+```python
+math.fabs(x)
+```
 
 ### Using exponent
 or use exponent ** sign
+Returns value as x^y
 ```python
 math.pow(x, y)
-Returns value as x^y
 ```
 
 ### Using root
+Returns value as x^1/2 (square root)
 ```python
 math.sqrt(x)
-Returns value as x^1/2 (square root)
 ```
 
 ### Using logarithms
+Returns the value as log <base> <number>
 ```python
 math.log(<number>, <base>)
-Returns the value as log <base> <number>
 ```
 
 ### Using ceiling (round up)
+Returns x as integer (rounding up)
 ```python
 math.ceil(x)
-Returns x as integer (rounding up)
 ```
 
 ### Using floor (round down)
+Returns x as integer (rounding down)
 ```python
 math.floor(x)
-Returns x as integer (rounding down)
 ```
 
 ### Using factorial
+Returns the value of the x!
 ```python
 math.factorial(x)
-Returns the value of the x!
 ```
 
 ### Using Pi (constant π)
+Returns the value of pi (more accurate than 22/7, but not for 355/113)
 ```python
 math.pi()
-Returns the value of pi (more accurate than 22/7, but not for 355/113)
 ```
 
 # Trigonometric Functions
