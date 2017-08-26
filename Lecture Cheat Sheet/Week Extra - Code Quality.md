@@ -36,12 +36,16 @@ def happy():
 happy()
 ```
 
+โดยที่จะตั้ง DocString ให้ดีนั้น ใน Docstring ที่อธิบายโปรแกรม จะต้องอธิบายว่าทั้งโปรแกรมนั้น ทำอะไร อย่างไรแบบคร่าวๆ เพื่อการทำงานกับคนอื่น <br>
+สำหรับ DocString ที่อธิบายฟังก์ชั่นนั้น ก็ต้องอธืบายว่าฟังก์ชั้นนั้นทำงานเพื่ออะไร หรือว่ากำลังจะทำอะไรอยู่
+
+การตั้ง DocString ที่ไม่ดี หรือ ไม่อธิบายถึงโปรแกรม อาจจะส่งผลเสียในภายภาคหน้านะครับ
+
 ## 2. Missing new line
-การสร้่างบรรทัดใหม่ น้องๆอาจจะไม่เข้าใจ ว่าทำไปทำไม เพื่ออะไร แต่มันมีเหตุผลทางด้านระบบตรวจ ก็ทำไปเถอะครับ :)
+เป็นเรื่องของการลืมสร้างบรรทัดใหม่
+น้องๆอาจจะไม่เข้าใจ ว่าทำไปทำไม เพื่ออะไร แต่มันเป็นการบอกโปรแกรมว่าหมดโปรแกรมแล้วทำให้โปรแกรมหยุดได้ (หากไม่มี ตัว Compiler จะเป็นคนเพื่มให้เอง) ดังนั้น PyLint จึงด่านะครับ :)
 
-โดยที่พวก Text Editor ที่เก่งแล้ว เช่น Sublime Text หรือ Atom จะมีการทำให้อยู่แล้ว
-
-เช่น
+โดยที่พวก Text Editor ส่วนใหญ่ จะมีการทำให้อยู่แล้ว ยกเว้นแต่ว่าน้องจะทำใน NotePad อ่ะเนอะ
 
 ```python
 """This program will print out the "Happy Kumamon" to the world"""
@@ -49,10 +53,10 @@ def happy():
   """This function will print out the text"""
   print("Hello Kumamon")
 happy()
-<< LEAVE THIS LINE BLANK FOR NEW LINE>>
+# and leave this line blank
 ```
 
-## 3. Invalid Type
+## 3. Invalid Data Type
 การรับค่า Input ผิดประเภท เช่น
 ```python
 int(input())
@@ -61,7 +65,7 @@ int(input())
 ถ้าหากรับค่า string มันจะแปลงไม่ได้ เพราะ string เป็นตัวอักษร เปลี่ยนค่าเป็นตัวเลขไม่ได้นะจ๊ะ
 
 ## 4. Invalid Syntax
-การใช้ฟังชั่นที่ใช้ชื่อผิด หรือ ใช้ผิดวิธี
+การใช้ฟังชั่นที่ใช้ชื่อผิด ใช้ผิดวิธี โมดูลขาด argument หรือ ไม่ได้เรียกโมดูลที่ต้องการใช้มาก่อน
 
 เช่น
 ```python
@@ -70,25 +74,17 @@ var_x = pi()
 ```
 ซื้ง pi() ไม่ใช่ฟังชั่นใน python หลัก แต่เป็นส่วนหนึ่งของ library ชื่อ math
 
-ดังนั้นต้องใช้เป็น
+ดังนั้นจึงต้องใช้
 ```python
 import math
 var_x = math.pi()
 ```
 
-แต่ถ้าอยากเปลี่ยนชื่อ library ก็สามารถทำได้ โดยการใช้ 'as'
-
-เช่น
-```python
-import math as kumamon
-var_x = kumamon.pi()
-```
-โดยก็สามารถทำงานเหมือน math ปกติ
-
 ## 5. Unused Variables
-เป็นการประกาศตัวแปร แล้วน้องไม่เคยใช้มันเลย มันอาจจะไม้เป็นไรสำหรับการรัน เพราะก็สามารถรันได้อย่างปกติ แต่มันเปลืองพื้นที่ RAM (เพื่อจองพื้นที่สำหรับ variable นี้)
+เป็นการประกาศตัวแปร แล้วน้องไม่เคยใช้มันเลย มันอาจจะไม้เป็นไรสำหรับการรัน เพราะก็สามารถรันได้อย่างปกติ
+แต่มันเปลืองพื้นที่ RAM (เพื่อจองพื้นที่สำหรับ variable นี้) ทำให้ Pylint ด่า
 
-ซึ่ง การประกาศแล้วไม่ได้ใช้ ไม่ต้องไปประกาศมัน็นะครับ เปลืองทรัพยากรฟรีๆ
+ซึ่ง การประกาศแล้วไม่ได้ใช้ วิธีแก้ก็คือ ไม่ต้องไปประกาศครับ ง่ายเนอะ
 
 เช่น
 ```python
@@ -97,7 +93,7 @@ var_x = 12
 var_y = 21
 print(var_x + var_y)
 ```
-ซึ่งตัวแปร kumamon ไม่ได้ถูกใช้ เปลืองพื้นที่ ดังนั้น PyLint จึงด่านะจ๊ะ
+ซึ่งตัวแปร kumamon ไม่ได้ถูกใช้ในบรรทัดอื่น (นอกจากการประกาศค่า) เป็นการสี้นเปลืองทรัพยากร
 
 ## 6. Variable Error & Variable Name
 การตั้งชื่อ Variable ก็เป็นสี่งจำเป็นในการทำ python เนอะ เพราะก็เอาไว้เก็บค่าตัวแปร
@@ -111,8 +107,16 @@ import math
 math = "Kumamon" # ตั้งชื่อตัวแปรเหมือนชื่อ library
 print(math.fabs(20-99))
 ```
-
 ก็จะทำให้มันงง ว่าจะให้โหลด library หรือเรียกตัวแปรที่ชื่อว่า math
+
+หรือ
+```python
+aaa = 12
+bbb = 55
+
+print(aaa + bbb)
+```
+ซื่งตัวแปร `aaa` นั้นก็ปกติอยู่หรอก แต่จะให้คนอื่นเค้ามาอ่านด้วยนั้น เป็นเรื่องที่ยากเหลือเกิน ว่าต้วแปรนี้เอาไว้ทำอะไร
 
 ดังนั้นพี่มงเลยมี Checklist ที่มันน่าจะด่านะครับ :)
 
@@ -122,8 +126,8 @@ Number|Type|Meaning|Example
 2|Long Variable|ชื่อตัวแปรยากเกินเหตุ|เช่น Uvuvwevwevwe_Onyetenyevwe_Ugwemubwen_Ossas
 3|Variable Name is the same as function|ชื่อตัวแปรเหมือนชื่อฟังชั่น|เช่น if
 4|Easy variable name|ตั้งชื่อตัวแปรอย่างง่ายๆ|เช่น aaa
-5|Capitalized Variable|ตัวแปรที่มีการตั้งเป็นตัวใหญ่ด้านหน้า|เช่น Num_1
-6|Camel Cased Variable|ตัวแปรที่ใช้การตั้งค่าเป็นตัวใหญ่แบ่งคำ|เช่น distanceOverTime
+5|Capitalized Variable|ตัวแปรที่มีการตั้งเป็นตัวใหญ่ด้านหน้า (เนื่องจากจะซ้ำกับวิธีประกาศ class)|เช่น Num_1
+6|Camel Cased Variable|ตัวแปรที่ใช้การตั้งค่าเป็นตัวใหญ่แบ่งคำ (เนื่องจากจะซ้ำกับวิธีประกาศชื่อ function)|เช่น distanceOverTime
 7|All Capitalized Variable (inside function)|ตัวแปรที่เป็นตัวใหญ่หมดเมื่อประกาศใน Local Variable|เช่น DISTANCE
 8|Weird Variable Name|ตัวแปรไม่บ่งบอกถึงการใช้งาน|เช่น num_1 สำหรับการเก็บค่า distance
 
@@ -153,7 +157,7 @@ print(var_x,var_y)
 ```
 จะด่า เพราะ การใช้ , ควรจะเหมือนเขียนภาษาอังกฤษนะครับ ต้องมี space หลัง , นะจ๊ะ ดังนั้นมันควรเป็นแบบนี้
 ```python
-var_x, var_y = 12,21
+var_x, var_y = 12, 21
 print(var_x, var_y)
 ```
 
@@ -193,72 +197,72 @@ kumamon()
 ```
 
 ## 10. Line is too long
-เป็นเมื่อน้องเขียนยาวเกินที่ระบบกำหนด ซึ่งมันก็เยอะมากอยู่แล้วนะ อย่าไปทำให้มันเลยเถอะนะ :)
+เป็นการบอกว่าโปรแกรมในแถวใดแถวหนึ่งยาวมาก <br>
+โดยปกติแล้ว โปรแกรมก็ไม่ควรที่จะยาวเกิน **100 ตัวอักษร** อยู่แล้ว เพราะเดี๋ยวจะอ่านไม่ออกและดูน่ารำคาญ
 
 เช่น
 ```python
   print("This is a very long string, and they are more than 100 character long. They just keep going and going and going and going and going and going and going and going and going and going")
 ```
+
 ## 11. Too many branch
-เมื่อน้องต้องการทำ If statement แล้วใช้งานมากเกินไปใช่เหตุ
+เมื่อน้องต้องการทำ If statement แล้วใช้มากเกินเหตุ หรือ ซ้อนกันมาก (Chained)
 
 เช่น
 ```python
-  var_x = int(input())
-  if var_x == 1:
-    print("Var_x is equal to", var_x)
-  else
-    if var_x == 2:
-      print("Var_x is equal to", var_x)
-      else
-    if var_x == 3:
-      print("Var_x is equal to", var_x)
-      else
-    if var_x == 4:
-      print("Var_x is equal to", var_x)
-      else
-    if var_x == 5:
-      print("Var_x is equal to", var_x)
-      else
-    if var_x == 6:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 7:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 8:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 9:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 10:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 11:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 12:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 13:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 14:
-      print("Var_x is equal to", var_x)
-       else
-    if var_x == 15:
-      print("Var_x is equal to", var_x)
+    var_x = int(input())
+    if var_x == 1:
+        print("Var_x is equal to", var_x)
+    else:
+        if var_x == 2:
+            print("Var_x is equal to", var_x)
+        else:
+            if var_x == 3:
+                print("Var_x is equal to", var_x)
+            else:
+                if var_x == 4:
+                    print("Var_x is equal to", var_x)
+                else:
+                    if var_x == 5:
+                        print("Var_x is equal to", var_x)
+                    else:
+                        if var_x == 6:
+                            print("Var_x is equal to", var_x)
+                        else:
+                            if var_x == 7:
+                                print("Var_x is equal to", var_x)
+                            else:
+                                if var_x == 8:
+                                    print("Var_x is equal to", var_x)
+                                else:
+                                    if var_x == 9:
+                                        print("Var_x is equal to", var_x)
+                                    else:
+                                        if var_x == 10:
+                                            print("Var_x is equal to", var_x)
+                                        else:
+                                            if var_x == 11:
+                                                print("Var_x is equal to", var_x)
+                                            else:
+                                                if var_x == 12:
+                                                    print("Var_x is equal to", var_x)
+                                                else:
+                                                    if var_x == 13:
+                                                        print("Var_x is equal to", var_x)
+                                                    else:
+                                                        if var_x == 14:
+                                                            print("Var_x is equal to", var_x)
+                                                        else:
+                                                            if var_x == 15:
+                                                                print("Var_x is equal to", var_x)
+
 ```
-การใช้งาน If/Else มากๆ Pylint จะด่านะครับ ดังนั้น การใช้งานหลายฟังชั่น จึงจะช่วยได้
+หากว่าน้องอยากจะใช้เยอะจริงๆ การใช้งานหลายฟังชั่น ก็เป็นวิธีหนึ่งในการช่วยให้น้องเขียนโค้ดน้อยลงเนอะ
 
 ## 12. Mixing Tabs and Space
-การใช้ Python น้องๆก็รู้ๆอยู่นะครับ ว่าจะไม่มีการใช้ {} ในการให้โปรแกรมรู้ว่าอยู่ในระดับขั้นตอนไหน
-
-ซึ่งการ indent ที่ดี ก็เป็นสี่งจำเป็น เพื่อให้ Python เข้าใจน้องๆนะครับ
-
-การ Indent จะใช้เท่ากับการกด space 4 ครั้งครับ ไม่ใช่ Tab
-
+การใช้ Python น้องๆก็รู้ๆอยู่นะครับ ว่าจะไม่มีการใช้ {} ในการให้โปรแกรมรู้ว่าอยู่ในระดับขั้นตอนไหน<br>
+ซึ่งการ indent ที่ดี ก็เป็นสี่งจำเป็น เพื่อให้ Python เข้าใจน้องๆนะครับ<br>
+การ Indent จะใช้เท่ากับการกด space 4 ครั้งครับ ไม่ใช่ Tab<br>
 เช่น (พี่จะแทนที่ space ด้วย * และ tab ด้วย ____ นะครับ
 
 อันนี้เป็นตัวอย่างที่ถูกต้องนะครับ
@@ -296,6 +300,38 @@ def calculate(var_a, var_b, var_c, var_d, var_e, var_f, var_g, var_h):
   print("The answer is", var_a + var_b + var_c + var_d + var_e + var_f + var_g + var_h)
 
 kumamon()
+```
+
+## 14. Conflicted Variable Name
+โดยจะเกิดขื้นเมื่อต้องการให้ตัวแปรนึงไปเป็นตัวนับ (ซึ่งตัวนับจะถูกลบล้างไป หากมีการใช้งาน) ดังนั้น ตัว PyLint จึงด่าครับ
+```python
+x = 12
+for x in range(1, 10):
+    print(x)
+```
+
+หากต้องการแก้ไข ให้เปลี่ยนชื่อตัวแปรไม่ให้ซ้อนทับกันครับ
+```python
+x = 12
+for i in range(1, 10):
+    print(i)
+
+```
+
+15. Incorrect line indentation
+โดยอันนี้จะเกิดขื้นเมื่อน้องอยากให้ตัวโปรแกรมเหลือบรรทัดน้อยๆ หรือเกิดจากน้องลืมกด ENTER เพื่อเปลี่ยนบรรทัด เช่น<br>
+แต่โดยปกติแล้ว โปรแกรมจะไม่รันเลย เนื่องจากว่าไม่เข้าใจว่าต้องการทำอะไร<br>
+แต่สำหรับบางเหตุการนั้น ได้เฉยเลย พี่เลยเขียนไว้ก่อนนะครับ ว่าให้ศึกษาก่อนที่จะ shorthand coding นะจ๊ะ
+```python
+# Normally what it should be
+if (x > 12):
+    print(x)
+
+# This is incorrect way to shorthand if functions
+if (x > 12): print(x)
+
+# This is correct way to shorthand if function
+print(x) if (x > 12)
 ```
 
 Pylint จะด่า เพราะน้องส่งตัวแปรให้กับฟังชั่น calculate มากเกินไป :(
