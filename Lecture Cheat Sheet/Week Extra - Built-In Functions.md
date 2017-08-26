@@ -1,4 +1,4 @@
-# Python Extra (Built-In Functions)
+# Built-In Functions
 
 ## Lecture List
 

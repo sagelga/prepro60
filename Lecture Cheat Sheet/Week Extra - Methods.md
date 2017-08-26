@@ -1,4 +1,4 @@
-# Python Extra by P’ Kumamon (Built In Methods)
+# Built In Methods
 
 ## Lecture List
 

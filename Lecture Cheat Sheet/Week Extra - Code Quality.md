@@ -1,4 +1,4 @@
-# Python Extra by P’ Kumamon (Pylint + PEP8)
+# Dealing with Pylint + PEP8
 
 ## Lecture List
 

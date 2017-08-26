@@ -1,4 +1,4 @@
-# Python Extra (Try and Except)
+# Try and Except
 
 ## Lecture List
 

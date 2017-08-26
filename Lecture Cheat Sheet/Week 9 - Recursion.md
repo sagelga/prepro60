@@ -20,15 +20,6 @@ For education purpose only.
 
 # Introduction to Recursion
 
-Q : What is recursion? <br>
-A: Q : What is recursion? <br>
-A: A: Q : What is recursion? <br>
-A: A: A: Q : What is recursion? <br>
-A: A: A: A: Q : What is recursion? <br>
-A: A: A: A: A: Q : What is recursion? <br>
-A: A: A: A: A: A: Q : What is recursion? <br>
-A: A: A: A: A: A: A: Q : What is recursion?
-
 > Recursion is a way of programming or coding a problem, in which a function calls itself one or more times in its body. Usually, it is returning the return value of this function call. If a function definition fulfils the condition of recursion, we call this function a recursive function. - python-course.eu
 
 # Example of use in recursion

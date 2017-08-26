@@ -1,4 +1,4 @@
-# Python Extra (File Manipulation)
+# File Manipulation
 
 ## Lecture List
 

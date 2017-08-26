@@ -1,4 +1,4 @@
-# Python Extra by P’ Kumamon (Command Line)
+# UNIX-based OS Command Line commands
 
 ## Lecture List
 

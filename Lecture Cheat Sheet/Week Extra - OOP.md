@@ -17,15 +17,42 @@ For education purpose only.
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
 
 ----------
+## Introduction to Object Oriented Programming
+In the word **object**, it is like a features in a single item. <br>
+Like, printer for example. Printers can `scan` and `print` and `copy`. These are called objects <br>
+and printers is called **class**.
 
-## Example of class defining
+Class can have many objects. Unlimted is another word.<br>
+But to use a object and functions inside a object is another part.
+
+Let's try creating a new class!
+
+## Creating class
 ```python
-class Fruit
-    def __init__ (self, name, amount, discount):
-        self.name = name
-        self.amount = amount
-        self.discount = discount
+class Kumamon: # Class needs AT LEAST 1 self (which equals to class name itself.)
+    def __init__(self, name): # This function is __init__ WHICH IS REQUIRED BY CLASS. It defines all other variable na,e
+        self.name = name + " desu" # Defining variable name to be equal to itself + desu
+```
 
+## Calling a class variables
+```python
+happy = Kumamon("Uvuvwevwevwe onyetenyevwe ugwemubwem ossas")
+return happy.name # Returns "Uvuvwevwevwe onyetenyevwe ugwemubwem ossas desu"
 
-orange = Fruit("orange", 12, False)
+```
+
+## Example of function defining
+```python
+class mango:
+    def func(self):
+        a, b = 8, 9
+        return a+b
+
+    def func2(self, x,y):
+        c = self.func()
+        z = x + y + c
+        return z
+
+a = mango().func2(1,1)
+print(a)
 ```

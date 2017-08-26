@@ -54,9 +54,11 @@ https://docs.python.org/3/
 ![](/Reference%20Photos/Hot%20Head%20Kumamon.jpg?raw=1)
 
 ## Follow me on GitHub
-<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>    
-### @sagelga
+|<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>  |
+|:-:|  
+|@sagelga|
 
-Copyright by P' Kumamon IT14.<br>For education purpose only
+Copyright by P' Kumamon IT14. <br>
+For education purpose only.
 
 ![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)

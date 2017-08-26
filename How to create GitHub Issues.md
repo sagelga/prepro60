@@ -15,3 +15,13 @@
 
 ติด Tag, Milestone และลองหา Issues ที่มีอยู่แล้วก่อน Submit ด้วยนะครับ กันการถามซ้ำ
 ![](/Reference%20Photos/Issue%20Step%203.png)
+
+## Follow me on GitHub
+|<a href="https://github.com/sagelga"><img src="https://avatars0.githubusercontent.com/u/13056824" width="100px"></a>  |
+|:-:|  
+|@sagelga|
+
+Copyright by P' Kumamon IT14. <br>
+For education purpose only.
+
+![Built with love](http://forthebadge.com/images/badges/built-with-love.svg)
