@@ -19,7 +19,6 @@ For education purpose only.
 ----------
 
 # Introduction to Math Library
-
 In Python, we cannot calculate the complicate numbers by code, we use the function to make it easier to calculate everything. This will be the list of function that you should know before test!
 
 Most of these functions are possible to be in any PSIT test. Some that are not listed are too complicate. But you can see it here : [https://docs.python.org/3.6/library/math.html](https://docs.python.org/3.6/library/math.html)
@@ -54,6 +53,7 @@ def calculate(value, total):
   return math.ceil(value / total)
 
 main(12, 45)
+```
 
 # Using methods in library
 Using the methods in library is easy is this. Program will find the absolute value (value is -2.55).
@@ -64,26 +64,26 @@ math.fabs(-2.55)
 ```
 
 # Basic math functions
-You should know how to use these before test. Everything is unexpected.
+You **should know how to use these** before test. Everything is unexpected.
 
 ### Using absolute
 or use exponent from built in function : abs()
-Returns absolute x value
+Returns absolute |x| value
 ```python
 math.fabs(x)
 ```
 
 ### Using exponent
-or use exponent ** sign
-Returns value as x^y
+or use exponent \*\* sign
+Returns value as x**y
 ```python
-math.pow(x, y)
+math.pow(<float or integer>, <exponent power>)
 ```
 
 ### Using root
 Returns value as x^1/2 (square root)
 ```python
-math.sqrt(x)
+math.sqrt(<float or integer>)
 ```
 
 ### Using logarithms
@@ -92,24 +92,36 @@ Returns the value as log <base> <number>
 math.log(<number>, <base>)
 ```
 
+or you may use
+```python
+math.log2(<number>)     # Set base = 2
+math.log10(<number>)    # Set base = 10
+```
+
 ### Using ceiling (round up)
 Returns x as integer (rounding up)
 ```python
-math.ceil(x)
+math.ceil(<float or integer>)
 ```
 
 ### Using floor (round down)
 Returns x as integer (rounding down)
 ```python
-math.floor(x)
+math.floor(<float or integer>)
 ```
 
 ### Using factorial
 Returns the value of the x!
 ```python
-math.factorial(x)
+math.factorial(<integer>)
 ```
 
+### Finding Greatest Commond Divisor (GCD)
+Returns the GCD of integer A and B
+```python
+math.gcd(<integer_a>, <integer_a>)
+
+```
 ### Using Pi (constant π)
 Returns the value of pi (more accurate than 22/7, but not for 355/113)
 ```python
@@ -117,21 +129,25 @@ math.pi()
 ```
 
 # Trigonometric Functions
-| sin    | cos    | tan    |
-| ------ | ------ | ------ |
-| csc    | sec    | cot    |
-| arcsin | arccos | arctan |
+| sin    | cos    | tan (sin/cos) |
+| :----: | :----: | :-----------: |
+| csc    | sec    | cot           |
+| arcsin | arccos | arctan        |
 
-https://s-media-cache-ak0.pinimg.com/736x/9a/16/09/9a16096d6e68ee4f2b268b07c10111e6.jpg
-
+![](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fkisigcsemaths.files.wordpress.com%2F2014%2F01%2Ftrigratios.jpg&f=1)
 
 ### Using sin, cos, tan, csc, sec, cot, arcsin, arccos, arctan
 ```python
 math.sin(<radians>)
 math.cos(<radians>)
-.
-.
-.
+math.tan(<radians>)
+
+math.csc(<radians>)
+math.sec(<radians>)
+math.cot(<radians>)
+
+math.arcsin(<radians>)
+math.arccos(<radians>)
 math.arctan(<radians>)
 ```
 
@@ -139,6 +155,9 @@ If the number is still a `degree`, you need to change it to `radians` by using
 
 ```python
 math.radians(<degree>)
+```
 
-# Return radians value from the given <degree>
+If you already know some angle, and you want to find hypotenuse length, use
+```python
+math.hypot(<opposite/adjacent>, <opposite/adjacent>)
 ```

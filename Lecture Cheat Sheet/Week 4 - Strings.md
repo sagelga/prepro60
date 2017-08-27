@@ -51,10 +51,10 @@ print(var[0]) # Prints out "A" (A is in the 0th number array)
 
 ถ้ายังไม่เข้าใจ ดูตารางเปรียบเทียบเอาครับ
 
-| **String (ชื่อ var)**   | A | B | C | D |
-| ------------------ | - | - | - | - |
-| **ตำแหน่งของ Array บน string**   | 0 | 1 | 2 | 3 |
-| **ตำแหน่งตัวอักษรจริง** | 1 | 2 | 3 | 4 |
+| **String (ชื่อ var)**            | A | B | C | D |
+| ------------------------------ | - | - | - | - |
+| **ตำแหน่งของ Array บน string** | 0 | 1 | 2 | 3 |
+| **ตำแหน่งตัวอักษรจริง**           | 1 | 2 | 3 | 4 |
 
 ระวังว่าตำแหน่งของ array จะเรื่มจาก 0 เสมอ ไม่เหมือนคนนะครับ ที่เรื่มนับจาก 1 เลย
 
@@ -104,6 +104,7 @@ print(var[::-2])
 ```
 
 ----------
+
 # Modifying Strings
 
 NOTE: Please go take a look at Week 1. There is a few that you already know
@@ -247,9 +248,8 @@ return text.swapcase()
 
 ### Using .isupper() & .islower()
 ```python
-How to use:
-<input variable>.islower()
-<input variable>.isupper()
+<string>.islower()
+<string>.isupper()
 
 text = "K"
 return text.islower() # Returns false
@@ -389,7 +389,7 @@ Example:
 print(oct(12345)) # Prints out 0o30071
 ```
 
-# From other base to decimal
+### Convert other base to decimal
 ```python
 number = "11000000111001"
 int(number, 2) # Returns 12345 (converts from base 2 (binary) to base 10 (decimal))
