@@ -18,6 +18,15 @@
 ดังนั้น พี่ขอปล่อยให้น้องเข้ามาดู Repository ได้เรื่อยๆนะจ๊ะ อิอิ
 
 ---
+# Contribute
+สำหรับน้องๆที่ต้องการช่วยพัฒนา Repository นี้ก็สามารถทำได้โดยการ
+1. กดปุ่ม [Fork](https://github.com/sagelga/PreProgramming-60#fork-destination-box)เพื่อให้ repo นี้เป็นของน้องเอง
+2. ทำการแก้ไขไฟล์ที่ต้องการใน Repository ที่ fork มา
+3. หากแก้เรียบร้อยแล้ว ให้กด [Pull Requests](https://github.com/sagelga/PreProgramming-60/compare) โดยให้ base เป็น sagelga/master และ compare กับ branch ของน้อง
+4. กด create แล้วส่ง request มา
+5. พี่คุมะมงจะไปดูโค้ดของน้อง และก็จะดึงมาอยู่ใน Repository นี้
+
+---
 
 # ![](/Reference%20Photos/Google-Class.png) Lecture
 
@@ -41,12 +50,14 @@ http://www.pythontutor.com
 Python Organizations (Document หลักของ Python)
 https://docs.python.org/3/
 
----
+Python3 on CodeAcademy
+https://www.codecademy.com/learn/learn-python
 
-# Code Quality Checker
-|<img src="https://pbs.twimg.com/profile_images/796423844663853056/WsR0OEAZ.jpg" width="100px"><br>Codacy|
-|:-:|
-|Master<br>[![Codacy Badge](https://api.codacy.com/project/badge/Grade/84b03bf6150e4d79ba586669bffde515)](https://www.codacy.com/app/sagelga/PreProgramming-60?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sagelga/PreProgramming-60&amp;utm_campaign=Badge_Grade)|
+Learn Command Line on CodeAcademy
+https://www.codecademy.com/learn/learn-the-command-line
+
+Learn Git on CodeAcademy
+https://www.codecademy.com/learn/learn-git
 
 ---
 
