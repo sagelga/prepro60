@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Equally Distributed
+## Description
 พี่มงและเพื่อนมงอีก 4 คนได้ไปกินร้านอาหารที่มีกระทะสีดำ Matte Black ครั้งหนึ่ง
 
 แต่ตัดสินใจไม่ได้ ว่าจะแบ่งจ่ายกันยังไง จึงมีผลสรุปจากเพื่อนมงว่า
@@ -20,13 +21,13 @@
 
 ไม่จำเป็นต้องใช้ if, else, elif,[,],{,},for,while นะจ๊ะ
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input เป็นค่าจำนวนจริง <br> เป็นค่าใช้จ่ายที่เกิดขื้น โดยสามารถมีค่าเศษสตางค์ได้ (.25, .50, .75) | Output เป็นค่าจำนวนจริง 2 บรรทัด <br> บรรทัดแรกเป็น ผลรวม ของค่าใช้จ่ายของเพื่อนมงทั้ง 4 <br> บรรทัดที่สองเป็น ค่าใช้จ่ายที่พี่มงต้องจ่าย |
 
 
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 1000 | 800.0 <br> 200.0 |

@@ -1,17 +1,18 @@
-# Description
+# Week 1 - Correlation
+## Description
 มงเดย์ Challenge!!!!!!
 
 เลขที่ให้กับผลลัพท์มันต่างกันยังไงน้า เอ...
 
 อ่าน Sample ดูละกันครับ อิอิ
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input 1 บรรทัด <br> ค่าเป็นจำนวนเต็มบวก  | Output 1 บรรทัด <br> ค่าเป็นจำนวนเต็ม |
 
 
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | ----------------------- | - |
 | 1234567890 | 10 |

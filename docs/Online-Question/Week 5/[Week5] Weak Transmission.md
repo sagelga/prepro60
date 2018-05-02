@@ -1,5 +1,4 @@
 # Description
-Testcase ที่ 1 และ 4 ถูกแก้ไขนะครับ ลองส่งใหม่กันดูเน้ออ
 
 Recieving Trasmission......
 
@@ -8,7 +7,7 @@ We have reached the Kumamoto Prefecture right now.
 
 We a-----re havi---ng pro--ble--m with the tra--nsmi-------ssion---- with th---e- ra---dio t---ower. Plea-----se he--lp
 
-<Weird message interrupts in>
+Weird message interrupts in
 
 H------e---l-l-o -t----------h-----i--s--- ----i---s--- b---ro----ke-----n- -----t--r---a--n-s---mis--sio----n f---r----o---m ---t-h-----e--- ra-------d-----i-o- sta--------tio------n.
 

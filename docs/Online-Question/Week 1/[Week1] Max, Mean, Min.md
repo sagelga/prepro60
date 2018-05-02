@@ -2,7 +2,7 @@
 ให้น้องๆหาค่า Max Mean Min ของ input 3 ตัว
 
 โดยมี function ช่วย min() max() ตัวอย่าง
-```
+```python
 >>> min(3, 5)
 3
 >>> max(3, 5)
