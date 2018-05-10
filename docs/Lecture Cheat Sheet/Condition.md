@@ -1,10 +1,4 @@
 # Condition Flow
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# Introduction to condition flow
-
 Condition flow makes the program think out of decision. Some decision is harder to make or some decision is complicate, Python have covered you.
 
 # What makes the argument true

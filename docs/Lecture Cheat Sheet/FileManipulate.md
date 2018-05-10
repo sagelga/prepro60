@@ -1,9 +1,5 @@
 # File Manipulation
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# Using Vanilla Python
+## Using Vanilla Python
 
 ```python
 file_variable = open("file_name.txt", "w")

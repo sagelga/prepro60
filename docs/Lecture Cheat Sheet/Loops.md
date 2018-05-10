@@ -1,14 +1,9 @@
 # Loops
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# Introduction to Loops
 Q: Why do we need a loop?
 
 A: It will minimize use of code and make your code easier to be debug.
 
-# Introduction to variable manipulator
+## Introduction to variable manipulator
 ### Using in
 `in` keyword is pretty much like equal sign. But it can return true if **some** element does qualify.
 

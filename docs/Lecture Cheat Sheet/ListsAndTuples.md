@@ -1,9 +1,4 @@
 # Lists and Tuples
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# Introduction to Arrays
 Array is a set of related data. In Python we have two difference types of array called List and Tuples.
 
 # Introduction to Lists

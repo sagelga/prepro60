@@ -1,7 +1,5 @@
 # Try and Except
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
+คำว่า Try คือการลองโค้ดบรรทัดนัั้น เพื่อหากว่าการลองนั้นไม่ผ่าน (เกิด Exception) ก็จะไม่ทำโปรแกรมเราพัง
 
 ```python
 try:

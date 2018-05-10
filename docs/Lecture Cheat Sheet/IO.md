@@ -1,8 +1,5 @@
 # Input and Output
 
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
 # Basic types of values
 | **Integer** | **Float** | **String**   | **Boolean** |
 | ----------- | --------- | ------------ | ----------- |

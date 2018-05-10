@@ -1,9 +1,4 @@
 # Built-In Functions
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# Introduction to Built in Library
 In Python, we have a function that calculate the product built-in to python. <br>
 See it all here : https://docs.python.org/3/library/functions.html
 

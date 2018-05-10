@@ -1,9 +1,4 @@
 # Dealing with Pylint + PEP8
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# ทำยังไงไม่ให้ PyLint ด่า
 ใครเคยโดน PyLint ด่าบ้าง ทุกคนก็ต้องเคยอ่ะเนอะ วันนี้พี่คุมะมงจะมาอธิบาย ว่าทำไมมันจึงด่านะครับ
 
 ถ้าอันไหน ยังไม่เคยเจอ คอมเม้นท์ไว้ใด้นะครับ :)

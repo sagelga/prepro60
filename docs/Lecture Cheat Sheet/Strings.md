@@ -1,9 +1,4 @@
 # Strings Manipulation
-
-Copyright by P' Kumamon IT14. <br>
-For education purpose only.
-
-# String คืออะไร
 String เป็นตัวแปรประเภทนึง ที่เก็บ character ไว้หลายๆตัว อาจจะเพียง 2 ตัวก็ได้ หรือจะเป็น ล้านๆตัวก็ได้
 
 Python นั้น จะเก็บข้อมูล String ไว้ในแบบ Array หรือว่ากล่อง(ถ้าจะให้เข้าใจง่ายๆ) โดยกล่องๆนึง มี character อยู่หนึ่งตัว
