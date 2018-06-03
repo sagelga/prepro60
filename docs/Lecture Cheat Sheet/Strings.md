@@ -1,9 +1,56 @@
-# Strings Manipulation
-String เป็นตัวแปรประเภทนึง ที่เก็บ character ไว้หลายๆตัว อาจจะเพียง 2 ตัวก็ได้ หรือจะเป็น ล้านๆตัวก็ได้
+# String
+พี่มงต้องอธิบายก่อนว่า String คืออะไร
+
+String คือกลุ่มของตัวอักษร (Character) มากกว่า 1 ตัว (หมายความว่า String = Character เมื่ิอมีตัวอักษรเพียงตัวเดียวเท่านั้น)
 
 Python นั้น จะเก็บข้อมูล String ไว้ในแบบ Array หรือว่ากล่อง(ถ้าจะให้เข้าใจง่ายๆ) โดยกล่องๆนึง มี character อยู่หนึ่งตัว
 
-และ โกดังคือตัวแปร String ที่มีหน้าที่เก็บกล่อง(character) โดยไม่สนใจว่าโกดังจะเล็กไปหรือใหญ่ไปหรือไม่ (Compiler จะทำหน้าที่คำนวณเอง ไม่เหมือนภาษาคอมพิวเตอร์อื่น)
+และ โกดังคือตัวแปรที่เก็บข้อมูล String ที่มีหน้าที่เก็บกล่องเล็กๆ (character) โดยไม่สนใจว่าโกดังจะเล็กไปหรือใหญ่ไปหรือไม่ (โดย Python จะเพื่มและลดขนาดโกดังให้น้องเอง ไม่ต้องกลัวเรื่องโกดังเต็มครับ)
+
+ใน Lecture นี้ พี่มงก็จะอธิบาย ว่าน้องๆทำอะไรกับข้อมูลประเภท String ได้บ้างนะครับ
+
+### String Concatenation
+Concatenation นั้นหมายถึงการนำ string มาแปะเข้าด้วยกัน (reference : https://en.wikipedia.org/wiki/Concatenation)
+
+น้องสามารถทำการเอา String มาแปะกันได้ โดยการใช้เครื่องหมายบวก
+
+ตัวอย่างเช่น
+```python
+text = "Hello"
+text2 = "World"
+print(text + text2) # Returns "HelloWorld"
+
+และสามารถใช้เครื่องหมาย , เพื่อทำการเอามาแปะกัน แล้วมี Space ด้วย 1 ตัว
+
+ตัวอย่างเช่น
+python
+text = "Hello"
+text2 = "World"
+print(text, text2) # Returns "Hello World"
+```
+
+แต่ในตัวอย่างนี้
+text1 = "Hello"
+text2 = "World"
+text3 = text1, text2
+
+แล้วทำไมมันไม่เวิร์คหล่ะ? ลองไปหาคำตอบดูนะครับ
+
+## String และ ตัวเลข
+```python
+text = "Hello"
+print(text * 5) # Returns "HelloHelloHelloHelloHello"
+
+# This will not work!
+text = "Hello"
+text2 = "World"
+print(text + text2 + 5) # Returns ERROR (You cannot add string with a integer type)
+
+# so try to use this instead
+text = "Hello"
+text2 = "World"
+print(text + text2 + str(5)) # Returns HelloWorld5
+```
 
 ### วิธีให้ตัวแปรเก็บค่า String
 ```python

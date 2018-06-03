@@ -1,5 +1,5 @@
 # Abort on errors
-set -e
+# set -e
 
 # Build the file
 npm run docs:build

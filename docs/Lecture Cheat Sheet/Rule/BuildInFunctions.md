@@ -2,6 +2,27 @@
 In Python, we have a function that calculate the product built-in to python. <br>
 See it all here : https://docs.python.org/3/library/functions.html
 
+การที่จะตั้งชื่อฟังก์ชั่นนั้นไม่ได้ตั้งชื่ออะไรก็ได้นะครับ โดยชื่อฟังก์ชั่นที่ Python จองไว้ไม่ให้ตั้งชื่อเหมือน จะมีดังนี้ครับ
+
+และเช่นเดียวกัน เราก็สามารถใช้ฟังก์ชั่นที่ Python ทำไว้แล้วได้เช่นเดียวกัน โดยการเรียกเหมือนกับฟังก์ชั่นธรรมดาเลย
+
+|  |  |  |  |  |
+| ------------- | ----------- | ------------ | ---------- | -------------- |
+| abs()         | dict()      | help()       | min()      | setattr()      |
+| all()         | dir()       | hex()        | next()     | slice()        |
+| any()         | divmod()    | id()         | object()   | sorted()       |
+| ascii()       | enumerate() | input()      | oct()      | staticmethod() |
+| bin()         | eval()      | int()        | open()     | str()          |
+| bool()        | exec()      | isinstance() | ord()      | sum()          |
+| bytearray()   | filter()    | issubclass() | pow()      | super()        |
+| bytes()       | float()     | iter()       | print()    | tuple()        |
+| callable()    | format()    | len()        | property() | type()         |
+| chr()         | frozenset() | list()       | range()    | vars()         |
+| classmethod() | getattr()   | locals()     | repr()     | zip()          |
+| compile()     | globals()   | map()        | reversed() | \__import__()   |
+| complex()     | hasattr()   | max()        | round()    |                |
+| delattr()     | hash()      | memoryview() | set()      |                |
+
 ### Using abs()
 abs() is absolute in math language. Absoulte will returns a **positive** number from the value
 ```python

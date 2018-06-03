@@ -1,3 +1,63 @@
+## Logic Operator
+Logic Operator เป็นการจัดการตัวแปรประเภท boolean เพื่อการจัดการ logic นั่นเอง<br>
+โดยน้องๆจะได้ใช้งานอย่างเต็มที่ เมื่อได้เรียน Conditions ครับ
+
+ตัวอย่าง Logic Operator
+| Data Type 	| วิธีการเขียนแบบทั่วไป 	| หรือจะเขียนแบบนี้ก็ได้ 	|
+|-----------	|------------------	|------------------	|
+| AND       	| and              	| &                	|
+| OR        	| or               	| |                	|
+| NOT       	| not              	| !                	|
+| XOR       	| xor              	| ^                	|
+
+### ตารางแสดงผลลัพท์ เมื่อทำการ AND
+|       	| TRUE     	| FALSE 	|
+|-------	|----------	|-------	|
+| TRUE  	| **TRUE** 	| FALSE 	|
+| FALSE 	| FALSE    	| FALSE 	|
+
+ก็จะเห็นได่ว่า ตัวแปรทั้งสองต้องเป็น TRUE เพื่อทำให้สมการ AND เป็น TRUE
+
+### ตารางแสดงผลลัพท์ เมื่อทำการ OR
+|       	| TRUE 	| FALSE     	|
+|-------	|------	|-----------	|
+| TRUE  	| TRUE 	| TRUE      	|
+| FALSE 	| TRUE 	| **FALSE** 	|
+
+ก็จะเห็นได่ว่า ตัวแปรทั้งสองต้องเป็น FALSE เพื่อทำให้สมการ OR เป็น FALSE
+
+ตัวอย่างการทดสอบ Logical Operator
+```python
+print(False and False)  # แลดงผลลัพท์เป็น False
+print(False and True)   # แลดงผลลัพท์เป็น False
+print(True and False)   # แลดงผลลัพท์เป็น False
+print(True and True)    # แลดงผลลัพท์เป็น True
+
+print(False or False)   # แลดงผลลัพท์เป็น False
+print(False or True)    # แลดงผลลัพท์เป็น True
+print(True or False)    # แลดงผลลัพท์เป็น True
+print(True or True)     # แลดงผลลัพท์เป็น True
+```
+
+### ตารางแสดงผลลัพท์ เมื่อทำการ NOT
+| **Input** | **Output หลังจากการใช้ NOT** |
+| -------- | ----------- |
+| False    | True        |
+| True     | False       |
+
+```python
+print(not False) # Return True
+print(not True)  # Return False
+```
+
+จะเห็นได้ว่า การทำ NOT นั้นจะสลับ logic (เช่น จริงไปเป็นเท็จ และ เท็จไปเป็นจริง)
+
+## Comparison Operator
+| **==**    | **!=**       | **<**     | **<=**                | **>**     | **>=**                |
+| --------- | ------------ | --------- | --------------------- | --------- | --------------------- |
+| Equals to | Not equal to | Less than | Less than or equal to | More than | More than or equal to |
+
+
 # Condition Flow
 Condition flow makes the program think out of decision. Some decision is harder to make or some decision is complicate, Python have covered you.
 

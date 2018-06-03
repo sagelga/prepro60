@@ -1,62 +1,51 @@
 module.exports = {
-    title: 'PreProgramming 2017',
-    description: 'PreProgramming for IT15 students',
+    title: 'PreProgramming 2016',
+    description: 'PreProgramming for PSIT Students',
     base: '/PreProgramming-60/',
 
     themeConfig: {
 
         // GitHub edit link
         repo: 'sagelga/PreProgramming-60',
-        repoLabel: 'Repository',
+        repoLabel: 'PrePro60 Repository',
         docsRepo: 'sagelga/PreProgramming-60',
         docsDir: 'docs',
         editLinks: true,
-        editLinkText: 'Help us improve this page!',
+        editLinkText: '✏️ Edit',
+
+        lastUpdated: '🕑',
+
+        // Navigation Bar
+        nav: [
+            { text: 'Report a Problem', link: 'https://github.com/sagelga/PreProgramming-60/issues' },
+        ],
 
         // Sidebar
         sidebar: [
             {
-                title: 'Python Lesson',
+                title: 'Lecture Cheatsheet',
                 collapsable: false,
                 children: [
-                    ['/Python/', 'Introduction'],
-                    '/Python/IO.md',
-                    '/Python/Operator.md',
-                    '/Python/Strings.md',
-                    '/Python/Functions.md',
-                    '/Python/Condition.md',
-                    '/Python/Loops.md',
-                    '/Python/ListAndTuples.md',
-                    '/Python/Dictionary.md',
-                    '/Python/Recursion.md',
-                    '/Python/PyLint.md',
-                    '/Python/Built-In-Method.md',
-                    '/Python/Built-In-Functions.md',
-                    '/Python/MathLibrary.md',
-                    '/Python/TryAndExcept.md',
-                    '/Python/OOP.md',
-                    '/Python/FileManipulate.md',
+                    '/Lecture Cheat Sheet/IO.md',
+                    '/Lecture Cheat Sheet/Functions.md',
+                    '/Lecture Cheat Sheet/Strings.md',
+                    '/Lecture Cheat Sheet/Loops.md',
+                    '/Lecture Cheat Sheet/Condition.md',
+                    '/Lecture Cheat Sheet/ListsAndTuples.md',
+                    '/Lecture Cheat Sheet/Dictionary.md',
                 ]
             },
 
             {
-                title: 'Practice',
-                collapsable: true,
+                title: 'Python Law',
+                collapsable: false,
                 children: [
-                  '/Online-Question/Week 1/',
-                  '/Online-Question/Week 2/',
-                  '/Online-Question/Week 3/',
-                  '/Online-Question/Week 4/',
-                  '/Online-Question/Week 5/',
-                  '/Online-Question/Week 6/'
+                    '/Lecture Cheat Sheet/Rule/PyLint.md',
+                    '/Lecture Cheat Sheet/Rule/BuildInFunctions.md',
+                    '/Lecture Cheat Sheet/Rule/BuildInMethod.md',
+                    '/Lecture Cheat Sheet/Rule/MathLibrary.md',
                 ]
-            },
-
-        ],
-
-        // Navigation Bar
-        nav: [
-            { text: '🏠 Home', link: '/' },
+            }
         ],
 
         // Search bar
