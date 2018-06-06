@@ -13,9 +13,9 @@ import math
 or
 
 ```python
-import math as new_package_name
+import math as quickmaffs
 ```
-with that, you can call `new_package_name.pi()` equivalent to `math.pi()`
+with that, you can call `quickmaffs.pi()` equivalent to `math.pi()`
 
 ## Sample import on multiple functions
 ```python

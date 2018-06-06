@@ -3,6 +3,10 @@ module.exports = {
     description: 'PreProgramming for PSIT Students',
     base: '/PreProgramming-60/',
 
+    markdown: {
+        lineNumbers: true,
+    },
+
     themeConfig: {
 
         // GitHub edit link
@@ -26,13 +30,14 @@ module.exports = {
                 title: 'Lecture Cheatsheet',
                 collapsable: false,
                 children: [
-                    '/Lecture Cheat Sheet/IO.md',
-                    '/Lecture Cheat Sheet/Functions.md',
-                    '/Lecture Cheat Sheet/Strings.md',
-                    '/Lecture Cheat Sheet/Loops.md',
-                    '/Lecture Cheat Sheet/Condition.md',
-                    '/Lecture Cheat Sheet/ListsAndTuples.md',
-                    '/Lecture Cheat Sheet/Dictionary.md',
+                  '/cheatsheet/Introduction/',
+                    '/cheatsheet/IO/',
+                    '/cheatsheet/Function/',
+                    '/cheatsheet/String/',
+                    '/cheatsheet/Loop/',
+                    '/cheatsheet/Condition/',
+                    '/cheatsheet/List/',
+                    '/cheatsheet/Dictionary/',
                 ]
             },
 
@@ -40,10 +45,10 @@ module.exports = {
                 title: 'Python Law',
                 collapsable: false,
                 children: [
-                    '/Lecture Cheat Sheet/Rule/PyLint.md',
-                    '/Lecture Cheat Sheet/Rule/BuildInFunctions.md',
-                    '/Lecture Cheat Sheet/Rule/BuildInMethod.md',
-                    '/Lecture Cheat Sheet/Rule/MathLibrary.md',
+                    '/cheatsheet/PyLint/',
+                    '/cheatsheet/BuildInFunctions/',
+                    '/cheatsheet/BuildInMethod/',
+                    '/cheatsheet/MathLibrary/',
                 ]
             }
         ],

@@ -1,3 +1,5 @@
+# Conditions
+
 ## Logic Operator
 Logic Operator เป็นการจัดการตัวแปรประเภท boolean เพื่อการจัดการ logic นั่นเอง<br>
 โดยน้องๆจะได้ใช้งานอย่างเต็มที่ เมื่อได้เรียน Conditions ครับ
@@ -58,15 +60,15 @@ print(not True)  # Return False
 | Equals to | Not equal to | Less than | Less than or equal to | More than | More than or equal to |
 
 
-# Condition Flow
+## Condition Flow
 Condition flow makes the program think out of decision. Some decision is harder to make or some decision is complicate, Python have covered you.
 
-# What makes the argument true
+## What makes the argument true
 |1|2|3|4|5|
 |:-:|:-:|:-:|:-:|:-:|
 |Equation is correct|Comparison of string is identical|Integer is not 0 (can be negative or positive)|Boolean is true|Logically true|
 
-# How to compare strings
+## Comparing Strings
 ```python
 var1 = "Hello"
 var2 = "Hello"
@@ -74,12 +76,14 @@ var2 = "Hello"
 return num1 == num2 # This line will return boolean of true. Because both string is identical
 ```
 
-# If statement
-### If statement will run when the argument is true.
+## If statement
+If ในภาษาอังกฤษ นั้นหมายถึง หาก<br>
+ในการเขียนโปรแกรมหมายถึง หากสมการนั้นเป็นจริง แล้วจะทำแบบนี้
+
+ตัวอย่างโค้ด
 ```python
-How to use:
-if (<argument>):
-  # This set of code will run when argument is true
+if ((2+2) = 4):
+  print("Quick Maffs")
 
 Example:
 kumamon = 12

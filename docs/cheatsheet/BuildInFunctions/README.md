@@ -1,6 +1,6 @@
 # Built-In Functions
 In Python, we have a function that calculate the product built-in to python. <br>
-See it all here : https://docs.python.org/3/library/functions.html
+See it all here : [https://docs.python.org/3/library/functions.html](https://docs.python.org/3/library/functions.html)
 
 การที่จะตั้งชื่อฟังก์ชั่นนั้นไม่ได้ตั้งชื่ออะไรก็ได้นะครับ โดยชื่อฟังก์ชั่นที่ Python จองไว้ไม่ให้ตั้งชื่อเหมือน จะมีดังนี้ครับ
 
