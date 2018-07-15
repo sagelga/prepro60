@@ -7,6 +7,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "npm": "^6.1.0"
+    "npm": "^6.2.0"
   }
 }
