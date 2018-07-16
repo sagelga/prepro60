@@ -1,4 +1,5 @@
-# Description
+# Week 3 - Tag Name
+## Description
 ให้รับข้อความเข้ามาหนึ่งของความ เเล้วให้เเสดงผลในลักษณะนี้
 ```text
 |------------|
@@ -7,12 +8,12 @@
 ```
 ปล. ตัวอักษรมีเเค่ 1 - 10 เท่านั้น
 
-# Specification
+## Specification
 |Input|Output|
 |-|-|
 |มีหนึ่งบรรทัด คือ ข้อความ|เป็นลักษณะที่ให้เเสดงผลดังตัวอย่าง|
 
-# Sample Input / Output
+## Sample Input / Output
 Input :
 ```
 Mei

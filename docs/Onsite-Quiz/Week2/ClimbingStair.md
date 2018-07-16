@@ -1,4 +1,5 @@
-# Description
+# Week 2 - Climbing Stair
+## Description
 You are climbing a staircase.
 It takes n steps to reach to the top.
 Each time you can either climb 1 or 2 steps.
@@ -7,12 +8,12 @@ Note: Given n will be a positive integer.
 
 ![](https://ejudge.it.kmitl.ac.th/uploads/1499273447_Drawing.jpeg)
 
-# Specification
+## Specification
 |Input|Output|
 |-|-|
 |(Positive Integer) Numbers of Staircase |Distinct ways to climb the staircase. |
 
-# Sample Input / Output
+## Sample Input / Output
 |Input|Output|
 |-|-|
 |1|1|

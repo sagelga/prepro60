@@ -32,6 +32,7 @@ module.exports = {
                 title: 'Online Question',
                 collapsable: true,
                 children: [
+                    // Week 1
                     'Online-Question/Week1/Special-ITCAMP13.md',	
                     'Online-Question/Week1/Absolute.md',
                     'Online-Question/Week1/Discounted.md',
@@ -56,7 +57,7 @@ module.exports = {
                     'Online-Question/Week1/Hardcore-Sequence.md',
                     'Online-Question/Week1/Hardcore-TaxNotIncluded.md',
                     'Online-Question/Week1/Hardcore-WeirdThatsOdd.md',
-
+                    // Week 2
                     'Online-Question/Week2/Base2Average.md',
                     'Online-Question/Week2/Congratulations.md',
                     'Online-Question/Week2/Docstring.md',
@@ -69,7 +70,7 @@ module.exports = {
                     'Online-Question/Week2/Thermometer.md',
                     'Online-Question/Week2/TimeConverter.md',
                     'Online-Question/Week2/VATWithServiceCharge.md',
-
+                    // Week 3
                     'Online-Question/Week3/AccessCharacter.md',
                     'Online-Question/Week3/BinaryDecoder.md',
                     'Online-Question/Week3/BinaryEncoder.md',
@@ -84,14 +85,14 @@ module.exports = {
                     'Online-Question/Week3/PlusString.md',
                     'Online-Question/Week3/STIC.md',
                     'Online-Question/Week3/SkippingText.md',
-	
+                    // Week 4
                     'Online-Question/Week4/2Input.md',
                     'Online-Question/Week4/Airport.md',
                     'Online-Question/Week4/BasicCondition.md',
                     'Online-Question/Week4/BasicConditionV2.md',
                     'Online-Question/Week4/HotCold.md',
                     'Online-Question/Week4/UpperLower.md',
-
+                    // Week 5
                     'Online-Question/Week5/Arrow.md',
                     'Online-Question/Week5/AutoCorrect.md',
                     'Online-Question/Week5/BusinessGrowthV1.md',
@@ -114,7 +115,7 @@ module.exports = {
                     'Online-Question/Week5/SumOfN.md',
                     'Online-Question/Week5/Triangle.md',
                     'Online-Question/Week5/WeakTransmission.md',
-
+                    // Week 6
                     'Online-Question/Week6/BasicList.md',
                     'Online-Question/Week6/BasicList2.md',
                     'Online-Question/Week6/BasicList3.md',
@@ -131,7 +132,29 @@ module.exports = {
                 title: 'Onsite Quiz',
                 collapsable: true,
                 children: [
-                    
+                    // Week 1
+                    'Onsite-Quiz/Week1/AreaWhereCircleAndSquareLiesOn.md',
+                    'Onsite-Quiz/Week1/Cinema.md',
+                    'Onsite-Quiz/Week1/Lost.md',
+                    'Onsite-Quiz/Week1/NthDigit.md',
+                    'Onsite-Quiz/Week1/Radar.md',
+                    'Onsite-Quiz/Week1/SleepTime.md',
+                    'Onsite-Quiz/Week1/WeaponFire.md',
+                    // Week 2
+                    'Onsite-Quiz/Week2/AtBashCipher.md',
+                    'Onsite-Quiz/Week2/ClimbingStair.md',
+                    'Onsite-Quiz/Week2/CountType.md',
+                    'Onsite-Quiz/Week2/Diamonds.md',
+                    'Onsite-Quiz/Week2/Duplicates.md',
+                    'Onsite-Quiz/Week2/MyMoney.md',
+                    'Onsite-Quiz/Week2/Plagarism.md',
+                    'Onsite-Quiz/Week2/SecurityLevel.md',
+                    // Week 3
+                    'Onsite-Quiz/Week3/IntegerOnly.md',
+                    'Onsite-Quiz/Week3/PunchTheOddDriveTheEven.md',
+                    'Onsite-Quiz/Week3/SevenEleven.md',
+                    'Onsite-Quiz/Week3/SortAgain.md',
+                    'Onsite-Quiz/Week3/TagName.md',
                 ]
             },
 

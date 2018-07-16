@@ -1,4 +1,5 @@
-# Description
+# Week 3 - Punch the Odd Drive the Even
+## Description
 สั้นๆ เลย......
 
 -ถ้าเป็นเลขคี่ ให้บวกหนึ่งเข้าไป
@@ -6,12 +7,12 @@
 
 กระทำเลขนี้จนกว่าจะ 1
 
-# Specification
+## Specification
 |Input|Output|
 |-|-|
 |1 บรรทัด เลขจำนวนเต็มบวก|1 บรรทัด เลขที่ต้องผ่านทางทั้งหมดจนถึงหนึ่ง รวมทั้ง 1 จำนวนเต็มทั้งหมด|
 
-# Sample Input / Output
+## Sample Input / Output
 |Input|Output|
 |-|-|
 |23|23 24 12 6 3 4 2 1|

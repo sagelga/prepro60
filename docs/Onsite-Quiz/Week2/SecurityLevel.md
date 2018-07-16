@@ -1,4 +1,5 @@
-# Description
+# Week 2 - Security Level
+## Description
 น้องได้รับจ้างเขียนโปรแกรมตรวจเช็คความปลอดภัยของ password ให้กับเว็บคณะ IT ชื่อดังย่านลาดกระบัง โดยมี Requirement ดังนี้
 - รับ username และ password จำนวน n คน
 - ให้หาว่า password ของ user นั้นๆ สามารถเอาไปใช้ได้หรือไม่ ถ้าใช้ได้ให้แสดงระดับความปลอดภัยของ password
@@ -24,12 +25,12 @@
 Username: it60070888 / Password: ******* (Security-Level: High)
 Username: helloworld / Password: ******* (Invalid)
 
-# Specification
+## Specification
 |Input|Output|
 |-|-|
 |1+n บรรทัด <br> บรรทัดแรกเป็น Integer เจำนวน user <br> บรรทัดต่อมาเป็น string username password|n บรรทัด <br> ตามรูปแบบด้านบนหรือดูใน sample i/o ก็ได้ |
 
-# Sample Input / Output
+## Sample Input / Output
 Input :
 ```
 6

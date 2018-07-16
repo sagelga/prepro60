@@ -1,4 +1,5 @@
-# Description
+# Week 2 - At Bash Cipher
+## Description
 รหัสที่ใช้มีชื่อว่า Atbash !
 วิธีการแก้ก็คือ
 z จะเปลี่ยนเป็น a
@@ -10,12 +11,12 @@ x จะเปลี่ยนเป็น c
 
 โดยที่สัญลักษณ์ต่างๆ เช่น !@#$%^&* หรือตัวเลขให้คงเดิม
 
-# Specification
+## Specification
 |Input|Output|
 |-|-|
 |Input เป็นข้อความภาษาอังกฤษตัวพิมพ์เล็กและตัวเลข|Output เป็นข้อความภาษาอังกฤษตัวพิมพ์เล็กที่ถอดรหัสแล้ว |
 
-# Sample Input / Output
+## Sample Input / Output
 |Input|Output|
 |-|-|
 |zyxwvutsrqponmlkjihgfedcba|abcdefghijklmnopqrstuvwxyz|
