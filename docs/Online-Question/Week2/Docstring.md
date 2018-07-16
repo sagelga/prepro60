@@ -1,4 +1,5 @@
-# Description
+# Week 2 - DocString
+## Description
 เปลี่ยนอารมณ์กันบ้าง
 
 ให้น้องๆเขียนDocstringของโปรแกรมนี้ เอาแบบให้คนที่ไม่รู้เรื่องเกี่ยวกับโปรแกรมนี้เลย สามารถอ่านแล้วเข้าใจหลักการทำงานพอสังเขปได้
@@ -20,11 +21,10 @@ def avg(num_1, num_2, num_3, num_4, num_5):
 main(int(input()), int(input()), int(input()), int(input()), int(input()))
 ```
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |

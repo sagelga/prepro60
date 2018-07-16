@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Special ITCamp13
+## Description
 [Special] IT CAMP13 Challenge
 Description
 สวัสดีน้องๆว่าที่ปี1ไอทีลาดกระบังทุกคนครับ หลายคนอาจจะกำลังร้อนกับโปรแกรมมิ่ง
@@ -22,13 +23,12 @@ Description
 ปอลิงสอง : หมดเขตในวันที่ 24/4/60 สามทุ่มครับ
 FB: IT CAMP | KMITL
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | จำนวนเต็มบวก | ตาม Sample input |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 
 1 

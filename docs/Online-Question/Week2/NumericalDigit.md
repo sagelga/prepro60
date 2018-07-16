@@ -1,4 +1,5 @@
-# Description
+# Week 2 - Numerical Digit
+## Description
 ให้น้องๆเขียนโปรแกรมรับตัวเลข โดยตัวเลขที่เข้ามาจะมีห้าหลักเสมอ จากนั้นให้นำ
 - เลขโดดของหลักหน่วยของเลขตัวแรก
 - เลขโดดของหลักสิบของเลขตัวที่สอง
@@ -18,13 +19,12 @@ Example:
 5+2+5+8+6 = 26
 ```
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | 5บรรทัด เป็นจำนวนเต็ม5หลัก | 1บรรทัด ผลรวมตามเงื่อนไขโจทย์ |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 12345 <br> 54321 <br> 16516 <br> 98797 <br> 65446 | 26 |

@@ -1,4 +1,4 @@
-# Week 1 - Equally Distributed
+# Week 1 - [Hardcore] Equally Distributed
 ## Description
 พี่มงและเพื่อนมงอีก 4 คนได้ไปกินร้านอาหารที่มีกระทะสีดำ Matte Black ครั้งหนึ่ง
 

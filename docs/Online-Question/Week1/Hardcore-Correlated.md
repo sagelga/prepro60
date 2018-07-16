@@ -1,4 +1,4 @@
-# Week 1 - Correlation
+# Week 1 - [Hardcore] Correlation
 ## Description
 มงเดย์ Challenge!!!!!!
 

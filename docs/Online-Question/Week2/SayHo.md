@@ -1,4 +1,5 @@
-# Description
+# Week 2 - Say Ho
+## Description
 Say ho! Ho!!!
 Say yeah! Yeah!!!
 
@@ -18,13 +19,12 @@ Say yeah! Yeah!!!
 และ การใช้ for / while loop<br>
 ใช้ฟังค์ชั่นแทนนะจ๊ะ
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input 50 บรรทัด | เหมือน Input ทุกประการ แต่ใส่ !!! เข้าไปหลังคำที่รับมาจาก Input <br> เช่นรับมาว่า Hello ให้ออกว่า Hello!!! |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> Hello <br> | Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> Hello!!! <br> |

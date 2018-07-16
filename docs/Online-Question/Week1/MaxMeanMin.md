@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Max Mean Min
+## Description
 ให้น้องๆหาค่า Max Mean Min ของ input 3 ตัว
 
 โดยมี function ช่วย min() max() ตัวอย่าง
@@ -11,13 +12,13 @@
 
 ค่า mean ที่พี่ขนมจีนให้คือ median นะครับ (สำหรับคนที่กำลังจะเอาไปหาร 3 อิอิ) -by Mon
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | จำนวนเต็ม 3 ตัว 3 บรรทัด | 3 บรรทัด ตาม Sample Output |
 
 
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 1 <br> 2 <br> 3 | Max: 3 <br> Mean: 2 <br> Min: 1 |

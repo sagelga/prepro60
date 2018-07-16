@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Discounted
+## Description
 วันนี้พี่มงได้ไปเดินเที่ยวที่ห้างแห่งหนึ่งใจกลางสยาม แล้วได้ไปเจอเค้าแจก voucher ว่า รับส่วนลด 300 บาท
 พี่มงก็ว้าวสิครับ พี่มงอยากได้มานานแล้ว พี่เลยจัดไป อย่าให้เสีย
 
@@ -22,13 +23,13 @@ print(max(a,0)) ก็จะปรี้นท์ 299 ออกมา
 
 ห้ามใช้งาน If, else, for, while, array, [],{}, นะจ๊ะ
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input 1 บรรทัด เป็นค่าจำนวนจริง <br> เป็นค่าใช้จ่าย ก่อนส่วนลด | Output 1 บรรทัด เป็นค่าจำนวนจริงเต็มบวก <br> เป็นค่าใช้จ่ายที่พี่ต้องจ่ายจริง <br> หากใช้ voucher ลดราคา 300 บาทแล้ว |
 
 
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 300 | 0.0 |

@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Echo
+## Description
 Hello Hello Hello Hello ~ ~ ~ ~ (ทำเสียงเอคโค่)
 พี่อยากให้น้องๆแสดงข้อความตามที่น้องinputเข้าไปเป็นจำนวน n รอบ
 
@@ -7,13 +8,13 @@ Hello Hello Hello Hello ~ ~ ~ ~ (ทำเสียงเอคโค่)
 * Echo คืออะไร อ่านตามลิ้งข้างล่างได้เลย
 [http://www.neutron.rmutphysics.com/teaching-glossary/index.php?option=com_content&task=view&id=4603&Itemid=15](http://www.neutron.rmutphysics.com/teaching-glossary/index.php?option=com_content&task=view&id=4603&Itemid=15)
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | 2 บรรทัด <br> บรรทัดแรกเป็น string <br> บรรทัดที่สองเป็น จำนวนเต็ม n | string n บรรทัด |
 
 
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | Hello <br> 5 | Hello <br> Hello <br> Hello <br> Hello <br> Hello |

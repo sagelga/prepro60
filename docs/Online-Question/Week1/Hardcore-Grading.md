@@ -1,6 +1,6 @@
-# Week 1 - Grading
+# Week 1 - [Hardcore] Grading
 ## Description
-*** ห้ามใช้ if else condition และ array ***
+** ห้ามใช้ if else condition และ array **
 
 ให้น้องๆเขียนโปรแกรมคำนวนเกรดตามข้อมูลด้านล่าง
 
@@ -19,7 +19,6 @@
 | Input Specification | Output Specification |
 | - | - |
 | 1 บรรทัด เป็นจำนวนเต็มในช่วง 0 ถึง 100  | เกรดตามคะแนนที่ใส่ในโปรแกรม เป็นจำนวนเต็มหรือทศนิยม 4 ตำแหน่ง  |
-
 
 ## Sample Case
 | Sample Input | Sample Output |

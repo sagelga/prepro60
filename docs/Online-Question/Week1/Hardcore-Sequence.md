@@ -1,3 +1,4 @@
+# Week 1 - [Hardcore] Sequence
 # Description
 จงเขียนโปรแกรมรับ input เป็นตัวเลขจำนวณเต็ม และได้ผลลัพธ์ออกมาตาม Sample Case
 

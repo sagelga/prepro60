@@ -1,4 +1,5 @@
-# Description
+# Week 1 - [Hardcore] Weird That's Odd
+## Description
 เอ เลข submission ID ที่น้องส่งให้พี่มงมามันดูแปลกๆน้า....... เปิดขื้นมาแล้วต้องร้องว่า อื้อหือ มงเจอของแรงเข้าแล้วซะแล้วหล่ะ
 
 พี่มงเลยไปซินแส Google มา แล้วเค้าบอกว่า ถ้าเลขที่เจอเป็นเลขคี่ เลขนั้นของแรงแน่นอน ฟันธง!!!!!!!
@@ -11,13 +12,12 @@
 
 TIP : เลขคี่ คือเลขที่หาร 2 แล้วไม่ลงตัว แลขคู่คือเลขที่ +1 แล้วหาร 2 ได้ไม่ลงตัว
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input จำนวนเต็มบวก 1 บรรทัด | Output 1 บรรทัด <br> หากเลขนั้นเป็นเลขคี่ ให้ออกคำว่า WARNING <br> หากเลขนั้นเป็นเลขคู่ ให้ออกคำว่า OK |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | ----------------------- | - |
 | 12 | OK |

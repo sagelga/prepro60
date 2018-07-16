@@ -1,15 +1,13 @@
 # Week 2 Question
-
-
-                    ['docs/Online-Question/Week 2/[Week2] [GGEZ] Sq of 3.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Base2 Average.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Congratulations.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Docstring.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Initial D v.1.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] McDonalds.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Numerical digit.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Say Ho.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] The very best.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Thermometer.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] Time converter.md', ''],
-                    ['docs/Online-Question/Week 2/[Week2] VAT w Service Charge.md', ''],
+- [Base2Average](Online-Question/Week2/Base2Average.md)
+- [Congratulations](Online-Question/Week2/Congratulations.md)
+- [Docstring](Online-Question/Week2/Docstring.md)
+- [InitialD1](Online-Question/Week2/InitialD1.md)
+- [McDonalds](Online-Question/Week2/McDonalds.md)
+- [NumericalDigit](Online-Question/Week2/NumericalDigit.md)
+- [SayHo](Online-Question/Week2/SayHo.md)
+- [SqOf3](Online-Question/Week2/SqOf3.md)
+- [TheVeryBest](Online-Question/Week2/TheVeryBest.md)
+- [Thermometer](Online-Question/Week2/Thermometer.md)
+- [TimeConverter](Online-Question/Week2/TimeConverter.md)
+- [VATWithServiceCharge](Online-Question/Week2/VATWithServiceCharge.md)

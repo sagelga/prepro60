@@ -1,4 +1,5 @@
-# Description
+# Week 1 - Mathmatician V2
+## Description
 กลับมาอีกครั้งพร้อมกับความมันส์ วันนี้ทุกโรงภาพยนตร์
 .
 .
@@ -15,13 +16,12 @@ The Legendary Mathematician is so picky. He said he doesn't want decimal number,
 
 PS. Use pi values from math module. Find it by yourself :D
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | real number 1 line <br> (unit: centimeters) | 3 lines <br> 1. Circumference of Circle <br> 2. Area of circle <br> 3. volume of circle <br> (unit: centimeters) |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 3 | 18 cm <br> 28 cm^2 <br> 113 cm^3 |

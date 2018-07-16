@@ -1,13 +1,13 @@
-# Description
+# Week 1 - To Integer
+## Description
 พี่อยากให้น้องๆ ช่วยตัดจุดทศนิยมทิ้งให้หน่อย ตาลายมากๆ @_@
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | จำนวนจริง 1 บรรทัด  | จำนวนเต็ม 1 บรรทัด  |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 3.498489456131321321231 | 3 |

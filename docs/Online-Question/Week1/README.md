@@ -1,24 +1,25 @@
 # Week 1 Question
-['/Online-Question/Week 1/[Week1] [GGEZ] Group up with me.md',        'Group up with me'],
-   ['/Online-Question/Week 1/[Week1] [Hardcore] Bank Notes.md',          '🔥 Bank Notes'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Correlated.md',          '🔥 Correlated'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Cramers Rule.md',        '🔥 Cramers Rule'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] EQUALLY Distributed.md', '🔥 EQUALLY Distributed'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Grading.md',             '🔥 Grading'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Sequence.md',            '🔥 Sequence'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Tax not included.md',    '🔥 Tax not included'],
-                    ['/Online-Question/Week 1/[Week1] [Hardcore] Weird Thats Odd.md',     '🔥 Weird Thats Odd'],
-                    ['/Online-Question/Week 1/[Week1] Absolute.md',                       'Absolute'],
-                    ['/Online-Question/Week 1/[Week1] Discounted.md',                     'Discounted'],
-                    ['/Online-Question/Week 1/[Week1] Distance.md',                       'Distance'],
-                    ['/Online-Question/Week 1/[Week1] Echo.md',                           'Echo'],
-                    ['/Online-Question/Week 1/[Week1] First impression.md',               'First impression'],
-                    ['/Online-Question/Week 1/[Week1] IO.md',                             'IO'],
-                    ['/Online-Question/Week 1/[Week1] Mathematician V.2.md',              'Mathematician V.2'],
-                    ['/Online-Question/Week 1/[Week1] Mathematician.md',                  'Mathematician'],
-                    ['/Online-Question/Week 1/[Week1] Max, Mean, Min.md',                 'Max, Mean, Min'],
-                    ['/Online-Question/Week 1/[Week1] Personal Information.md',           'Personal Information'],
-                    ['/Online-Question/Week 1/[Week1] Secret code.md',                    'Secret code'],
-                    ['/Online-Question/Week 1/[Week1] Square Root.md',                    'Square Root'],
-                    ['/Online-Question/Week 1/[Week1] To integer.md',                     'To integer'],
-                    ['/Online-Question/Week 1/[Week1] Too many lines.md',                 'Too many lines'],
+- [Special-ITCAMP13.md](Online-Question/Week1/Special-ITCAMP13.md)
+- [Absolute.md](Online-Question/Week1/Absolute.md)
+- [Discounted.md](Online-Question/Week1/Discounted.md)
+- [Distance.md](Online-Question/Week1/Distance.md)
+- [Echo.md](Online-Question/Week1/Echo.md)
+- [FirstImpression.md](Online-Question/Week1/FirstImpression.md)
+- [IO.md](Online-Question/Week1/IO.md)
+- [MathematicianV2.md](Online-Question/Week1/MathematicianV2.md)
+- [Mathematician.md](Online-Question/Week1/Mathematician.md)
+- [MaxMeanMin.md](Online-Question/Week1/MaxMeanMin.md)
+- [PersonalInformation.md](Online-Question/Week1/PersonalInformation.md)
+- [SecretCode.md](Online-Question/Week1/SecretCode.md)
+- [SquareRoot.md](Online-Question/Week1/SquareRoot.md)
+- [ToInteger.md](Online-Question/Week1/ToInteger.md)
+- [TooManyLines.md](Online-Question/Week1/TooManyLines.md)
+- [GroupUpWithMe.md](Online-Question/Week1/GroupUpWithMe.md)
+- [Hardcore - BankNotes.md](Online-Question/Week1/Hardcore-BankNotes.md)
+- [Hardcore - Correlated.md](Online-Question/Week1/Hardcore-Correlated.md)
+- [Hardcore - CramersRule.md](Online-Question/Week1/Hardcore-CramersRule.md)
+- [Hardcore - EQUALLYDistributed.md](Online-Question/Week1/Hardcore-EQUALLYDistributed.md)
+- [Hardcore - Grading.md](Online-Question/Week1/Hardcore-Grading.md)
+- [Hardcore - Sequence.md](Online-Question/Week1/Hardcore-Sequence.md)
+- [Hardcore - TaxNotIncluded.md](Online-Question/Week1/Hardcore-TaxNotIncluded.md)
+- [Hardcore - WeirdThatsOdd.md](Online-Question/Week1/Hardcore-WeirdThatsOdd.md)

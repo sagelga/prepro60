@@ -127,6 +127,14 @@ module.exports = {
                 ]
             },
 
+            {
+                title: 'Onsite Quiz',
+                collapsable: true,
+                children: [
+                    
+                ]
+            },
+
         ],
 
         // Search bar

@@ -1,13 +1,13 @@
-# Description
+# Week 1 - Absolute
+## Description
 ให้น้องๆเขียนโปรแกรมหาผลต่างของจำนวนสองจำนวน
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | จำนวนจริง 1 บรรทัด  | จำนวนเต็ม 1 บรรทัด  |
 
-
-# Sample Case
+## Sample Case
 | Sample Input | Sample Output |
 | - | - |
 | 7 <br> 5 | 2.0 |

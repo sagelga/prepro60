@@ -1,4 +1,5 @@
-# Description
+# Week 2 - Congratulations
+## Description
 Congratulations!!!!!!!!!!!!
 
 อ่าน Specs เอาเนอะ ง่ายดี :)
@@ -15,12 +16,12 @@ Challenge: เขียนโค้ดให้สั้นที่สุด
 
 P' Kumamon code (w/o Loop)  : 21 lines
 
-# Specification
+## Specification
 | Input Specification | Output Specification |
 | - | - |
 | Input 1 บรรทัด เป็นค่า string | Output จำนวน 20 บรรทัด 5 คอลลั่ม ซึ่งมีเลขบรรทัดกำกับ และ # ก่อนหน้าตัวนับ <br> และใช้ Tab 2 ครั้งในการเว้นแต่ละคอลลั่ม <br> ดูตัวอย่างเอาดีกว่า อิอิ |
 
-# Sample Case
+## Sample Case
 Input : Kumamon\
 Output :
 ```
