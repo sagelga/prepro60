@@ -1,12 +1,28 @@
 {
-  "devDependencies": {
-    "vuepress": "^0.8.4"
+  "name": "preprogramming-60",
+  "version": "1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
   },
+  "repository": "/preprogramming-60",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-copyright": "^1.0.2",
+    "vuepress-plugin-medium-zoom": "^1.1.9"
   },
   "dependencies": {
-    "npm": "^6.2.0"
+    "markdown-it-katex": "^2.0.3",
+    "markdown-it-task-lists": "^2.1.1"
   }
 }
