@@ -1,8 +1,5 @@
 \.DS_Store
 \.idea
-
 *.csv
-
-Ways to say Kumamon Dance/*
-On Site/Exam Resource/Exam Results/*
-Online/Answer/*
+node_modules/*
+docs/.vuepress/dist
