@@ -1,0 +1,26 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Vuepress Lint
+
+# Controls when the action will run.
+on:
+  push:
+    branches:
+      - "**" # matches every branch
+      - "!gh-pages"
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  super-linter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+
+      # Runs the Super-Linter action
+      - name: Run Super-Linter
+        uses: github/super-linter@v4.2.2
+        env:
+          DEFAULT_BRANCH: main
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
