@@ -1,7 +1,7 @@
 module.exports = {
     title: 'PreProgramming 2016',
     description: 'PreProgramming for PSIT Students',
-    base: '/PreProgramming-60/',
+    base: '/',
 
     markdown: {
         lineNumbers: true,
@@ -20,20 +20,24 @@ module.exports = {
         lastUpdated: '🕑',
 
         // Navigation Bar
-        nav: [
-            { text: 'Python Cheatsheet', link: 'https://sagelga.github.io/cheatsheet/#/Python/' },
-            { text: 'Report a Problem', link: 'https://github.com/sagelga/PreProgramming-60/issues' }
+        nav: [{
+                text: 'Python Cheatsheet',
+                link: 'https://learn.sagelga.com/python/'
+            },
+            {
+                text: 'Report a Problem',
+                link: 'https://github.com/sagelga/PreProgramming-60/issues'
+            }
 
         ],
 
         // Sidebar
-        sidebar: [
-            {
+        sidebar: [{
                 title: 'Online Question',
                 collapsable: true,
                 children: [
                     // Week 1
-                    'Online-Question/Week1/Special-ITCAMP13.md',	
+                    'Online-Question/Week1/Special-ITCAMP13.md',
                     'Online-Question/Week1/Absolute.md',
                     'Online-Question/Week1/Discounted.md',
                     'Online-Question/Week1/Distance.md',
