@@ -24,6 +24,6 @@
   "dependencies": {
     "markdown-it-katex": "^2.0.3",
     "markdown-it-task-lists": "^2.1.1",
-    "npm": "^7.6.3"
+    "npm": "^7.20.0"
   }
 }
