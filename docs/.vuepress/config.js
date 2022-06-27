@@ -22,7 +22,7 @@ module.exports = {
         // Navigation Bar
         nav: [{
                 text: 'Python Cheatsheet',
-                link: 'https://learn.sagelga.com/python/'
+                link: 'https://learn.sagelga.com/python/intro/install/'
             },
             {
                 text: 'Report a Problem',
