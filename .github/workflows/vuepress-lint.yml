@@ -16,11 +16,11 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
 
       # Runs the Super-Linter action
       - name: Run Super-Linter
-        uses: github/super-linter@v4.5.1
+        uses: github/super-linter@v4.9.4
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
